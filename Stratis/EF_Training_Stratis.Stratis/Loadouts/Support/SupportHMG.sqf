@@ -1,6 +1,6 @@
-comment "Exported from Arsenal by Timai";
 
-comment "Remove existing items";
+
+
 removeAllWeapons player;
 removeAllItems player;
 removeAllAssignedItems player;
@@ -10,7 +10,7 @@ removeBackpack player;
 removeHeadgear player;
 removeGoggles player;
 
-comment "Add containers";
+
 player forceAddUniform "rhs_uniform_cu_ocp";
 for "_i" from 1 to 7 do {player addItemToUniform "ACE_elasticBandage";};
 for "_i" from 1 to 7 do {player addItemToUniform "ACE_quikclot";};
@@ -37,16 +37,16 @@ player addItemToBackpack "rhsusf_100Rnd_762x51";
 player addHeadgear "H_MilCap_mcamo";
 player addGoggles "G_Aviator";
 
-comment "Add weapons";
+
 player addWeapon "rhs_weap_m240B_CAP";
 player addPrimaryWeaponItem "SMA_ELCAN_SPECTER_4z";
 
 
-comment "Add items";
+
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "tf_microdagr";
 player linkItem "tf_anprc152";
 
-comment "Make player Mute";
+
 player setSpeaker "ACE_NoVoice";
