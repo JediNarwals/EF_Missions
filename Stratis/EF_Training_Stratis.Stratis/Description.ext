@@ -1,65 +1,20 @@
-author = JediNarwals [TG];
-briefingName="EuroForce Stratis Operations";
-overviewText="EuroForce Stratis Operations";
-onLoadName = EuroForce Stratis Operations;
-
-respawn      = 			"BASE";
-respawndelay = 			3;
-respawnOnStart =		1;
-disabledAI   = 			1;
-enableDebugConsole = 	1;
-
-//----- For PvP ---------
-disableChannels[]={0};
-joinUnassigned = 1;
-
-corpseLimit = 30;
-corpseRemovalMinTime = 60;
-corpseRemovalMaxTime = 300;
-
-wreckLimit = 15;
-wreckRemovalMinTime = 60;
-wreckRemovalMaxTime = 1200;
-
-//respawnTemplates[] = {"MenuInventory","MenuPosition"};
-
 class Header
 {
-	gameType = COOP;
-	minPlayers = 1;
-	maxPlayers = 149;
-};
-//=========== MISC Configs
-/*
-class CfgRespawnTemplates
-{
-	class JN_MenuInventory
-	{
-		onPlayerKilled = "jedi_fnc_respawnMenuInventory";
-		onPlayerRespawn = "jedi_fnc_respawnMenuInventory";
-	};
+	gameType = Coop;
 };
 
-class CfgFunctions
-{
-  class JN
-	{
-		tag = "jedi";
-		class playerThings
-		{
-			file = "functions";
-			class respawnMenuInventory { description = "Adds the respawn menu to the player."; };
-		};
-	};
-};
+respawn = 3;
+respawnDelay = 5;
+respawnOnStart = 1;
 
-class CfgRoles
-{
-	#include "config\roles.hpp"
-};
+corpseManagerMode = 1;
+corpseLimit = 10;
+corpseRemovalMinTime = 60; //seconds
+corpseRemovalMaxTime = 1200; //seconds
 
-class CfgRespawnInventory
-{
-	#include "config\Inventories.hpp"
-};
-*/
+wreckManagerMode = 1;
+wreckLimit = 3;
+wreckRemovalMinTime = 60; //seconds
+wreckRemovalMaxTime = 1200; //seconds
+
+minPlayerDistance = 100; //meters

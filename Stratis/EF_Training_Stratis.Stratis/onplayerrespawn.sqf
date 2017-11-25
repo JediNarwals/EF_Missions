@@ -1,20 +1,3 @@
-/*
-	file: onPlayerRespawn.sqf
-
-	author: JediNarwals [TG]
-
-	description:
-		BIS auto file that runs everytime the player respawns
-*/
-
-//----------------- Make things a little nicer on everyone
-
-enableRadio false;														// That will clear the voices from my head...
-enableSentences false;													// Stop talking to myself
-enableSaving [false,false];												// "Everything Not saved will be lost." - Nintendo 'Quit Screen' message
-//player enableFatigue false;											// Disables fatigue
-player enableAimPrecision false;										// Does fatigue affect your aim
-
 removeAllWeapons player;
 removeAllItems player;
 removeAllAssignedItems player;
@@ -25,12 +8,14 @@ removeHeadgear player;
 removeGoggles player;
 
 player forceAddUniform "VSM_MulticamTropic_Crye_Camo";
+for "_i" from 1 to 7 do {player addItemToUniform "ACE_elasticBandage";};
+for "_i" from 1 to 7 do {player addItemToUniform "ACE_quikclot";};
+for "_i" from 1 to 5 do {player addItemToUniform "ACE_CableTie";};
+player addItemToUniform "ACE_EarPlugs";
+player addItemToUniform "ACE_EntrenchingTool";
+player addItemToUniform "ACE_microDAGR";
+player addItemToUniform "ACE_morphine";
+for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
+player addItemToUniform "ACE_Flashlight_XL50";
+for "_i" from 1 to 2 do {player addItemToUniform "Chemlight_green";};
 player addVest "VSM_RAV_operator_MulticamTropic";
-player addHeadgear "VSM_Mich2000_2_MulticamTropic";
-
-player linkItem "ItemMap";
-player linkItem "ItemCompass";
-player linkItem "tf_microdagr";
-player linkItem "tf_anprc152";
-
-player setSpeaker "ACE_NoVoice";
