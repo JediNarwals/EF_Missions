@@ -7,7 +7,6 @@ removeBackpack player;
 removeHeadgear player;
 removeGoggles player;
 
-comment "Add containers";
 player forceAddUniform "VSM_MulticamTropic_Crye_Camo";
 for "_i" from 1 to 7 do {player addItemToUniform "ACE_elasticBandage";};
 for "_i" from 1 to 7 do {player addItemToUniform "ACE_quikclot";};
@@ -20,7 +19,3 @@ for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
 player addItemToUniform "ACE_Flashlight_XL50";
 for "_i" from 1 to 2 do {player addItemToUniform "Chemlight_green";};
 player addVest "VSM_RAV_operator_MulticamTropic";
-
-
-
-			
