@@ -1,6 +1,6 @@
 <p align="center">
   <a href="http://www.eurof-team.org">
-    <img src="https://imgur.com/a/bCmh7" width="960">
+    <img src="https://i.imgur.com/yb6KIsa.jpg" width="960">
   </a>
 </p>
 
