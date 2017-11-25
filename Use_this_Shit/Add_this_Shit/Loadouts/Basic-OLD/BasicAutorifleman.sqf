@@ -1,6 +1,6 @@
-comment "Exported from Arsenal by Timai";
 
-comment "Remove existing items";
+
+
 removeAllWeapons player;
 removeAllItems player;
 removeAllAssignedItems player;
@@ -10,7 +10,7 @@ removeBackpack player;
 removeHeadgear player;
 removeGoggles player;
 
-comment "Add containers";
+
 player forceAddUniform "VSM_MulticamTropic_Crye_Camo";
 for "_i" from 1 to 7 do {player addItemToUniform "ACE_elasticBandage";};
 for "_i" from 1 to 7 do {player addItemToUniform "ACE_packingBandage";};
@@ -36,12 +36,12 @@ player addItemToBackpack "rhsusf_ANPVS_14";
 player addHeadgear "VSM_Mich2000_2_MulticamTropic";
 player addGoggles "VSM_Shemagh_Goggles_OD";
 
-comment "Add weapons";
+
 player addWeapon "rhs_weap_m249_pip_S";
 player addPrimaryWeaponItem "SMA_SFFL_BLK";
 player addPrimaryWeaponItem "SMA_ELCAN_SPECTER_4z";
 
-comment "Add items";
+
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "tf_microdagr";

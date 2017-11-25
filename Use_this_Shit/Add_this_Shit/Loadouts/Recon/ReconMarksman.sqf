@@ -1,6 +1,6 @@
-comment "Exported from Arsenal by Timai";
 
-comment "Remove existing items";
+
+
 removeAllWeapons player;
 removeAllItems player;
 removeAllAssignedItems player;
@@ -10,7 +10,7 @@ removeBackpack player;
 removeHeadgear player;
 removeGoggles player;
 
-comment "Add containers";
+
 player forceAddUniform "rhs_uniform_cu_ocp";
 for "_i" from 1 to 7 do {player addItemToUniform "ACE_elasticBandage";};
 for "_i" from 1 to 7 do {player addItemToUniform "ACE_quikclot";};
@@ -33,14 +33,14 @@ for "_i" from 1 to 6 do {player addItemToVest "rhsusf_10Rnd_762x51_m993_Mag";};
 player addHeadgear "rhs_Booniehat_ocp";
 player addGoggles "G_Tactical_Clear";
 
-comment "Add weapons";
+
 player addWeapon "rhs_weap_m40a5_d";
 player addPrimaryWeaponItem "SMA_ANPEQ15_TAN";
 player addPrimaryWeaponItem "ACE_optic_LRPS_PIP";
 player addPrimaryWeaponItem "rhsusf_acc_harris_swivel";
 player addHandgunItem "muzzle_snds_L";
 
-comment "Add items";
+
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "tf_microdagr";
