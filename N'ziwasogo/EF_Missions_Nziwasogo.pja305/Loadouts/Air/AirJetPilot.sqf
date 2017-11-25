@@ -14,11 +14,14 @@ comment "Add containers";
 player forceAddUniform "U_B_PilotCoveralls";
 player addItemToUniform "ACE_EarPlugs";
 for "_i" from 1 to 7 do {player addItemToUniform "ACE_elasticBandage";};
-for "_i" from 1 to 7 do {player addItemToUniform "ACE_quikclot";};
+for "_i" from 1 to 7 do {player addItemToUniform "ACE_packingBandage";};
 player addItemToUniform "ACE_microDAGR";
 player addItemToUniform "ACE_morphine";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
+player addVest "V_Chestrig_oli";
+for "_i" from 1 to 6 do {player addItemToVest "SMA_30Rnd_556x45_M855A1";};
 player addHeadgear "H_PilotHelmetFighter_B";
+player addBackpack "ACE_NonSteerableParachute";
 
 comment "Add weapons";
 player addWeapon "SMA_M4CQBR";
