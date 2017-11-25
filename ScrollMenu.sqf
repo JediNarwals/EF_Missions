@@ -25,7 +25,7 @@
     player addAction ['Get Air Helicopter Pilot Loadout','Loadouts\Air\AirHelicopterPilot.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)'];
     player addAction ['Get Air Jet Pilot Loadout','Loadouts\Air\AirJetPilot.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)'];
     player addAction ['Get Air Transport Pilot Loadout','Loadouts\Air\AirTransportPilot.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)'];
-  }
+  };
   EF_MM =
   {
     removeAllActions player;
