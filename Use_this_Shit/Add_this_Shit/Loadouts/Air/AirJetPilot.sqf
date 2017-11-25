@@ -1,6 +1,3 @@
-
-
-
 removeAllWeapons player;
 removeAllItems player;
 removeAllAssignedItems player;
@@ -9,7 +6,6 @@ removeVest player;
 removeBackpack player;
 removeHeadgear player;
 removeGoggles player;
-
 
 player forceAddUniform "U_B_PilotCoveralls";
 player addItemToUniform "ACE_EarPlugs";
@@ -23,16 +19,15 @@ for "_i" from 1 to 6 do {player addItemToVest "SMA_30Rnd_556x45_M855A1";};
 player addHeadgear "H_PilotHelmetFighter_B";
 player addBackpack "ACE_NonSteerableParachute";
 
-
 player addWeapon "SMA_M4CQBR";
 player addPrimaryWeaponItem "SMA_eotech552";
-
 
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "tf_microdagr";
 player linkItem "tf_anprc152";
 
-
-comment "Make player Mute";
 player setSpeaker "ACE_NoVoice";
+
+[[player],"ace_medical_medicClass", 0, true] call ace_common_fnc_assignObjectsInList;
+[[player],"ACE_IsEngineer", 0, true] call ace_common_fnc_assignObjectsInList;

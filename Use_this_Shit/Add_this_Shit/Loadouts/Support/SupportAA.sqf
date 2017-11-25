@@ -51,5 +51,5 @@ player linkItem "ItemCompass";
 player linkItem "tf_microdagr";
 player linkItem "tf_anprc152";
 
-comment "Make player Mute";
+
 player setSpeaker "ACE_NoVoice";

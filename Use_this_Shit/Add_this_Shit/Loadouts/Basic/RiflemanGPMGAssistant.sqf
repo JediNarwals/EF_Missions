@@ -1,6 +1,3 @@
-
-
-
 removeAllWeapons player;
 removeAllItems player;
 removeAllAssignedItems player;
@@ -9,7 +6,6 @@ removeVest player;
 removeBackpack player;
 removeHeadgear player;
 removeGoggles player;
-
 
 player forceAddUniform "VSM_MulticamTropic_Crye_Camo";
 for "_i" from 1 to 9 do {player addItemToUniform "ACE_elasticBandage";};
@@ -35,18 +31,18 @@ for "_i" from 1 to 4 do {player addItemToBackpack "SMA_150Rnd_762_M80A1";};
 player addHeadgear "VSM_Mich2000_2_MulticamTropic";
 player addGoggles "VSM_Shemagh_Goggles_OD";
 
-
 player addWeapon "SMA_M4afg_OD_SM";
 player addPrimaryWeaponItem "SMA_FLASHHIDER1";
 player addPrimaryWeaponItem "SMA_SFPEQ_M4TOP_BLK";
 player addPrimaryWeaponItem "SMA_eotech552_3XDOWN";
 player addWeapon "rhsusf_weap_glock17g4";
 
-
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "tf_microdagr";
 player linkItem "tf_anprc152";
 
-
 player setSpeaker "ace_novoice";
+
+[[player],"ace_medical_medicClass", 0, true] call ace_common_fnc_assignObjectsInList;
+[[player],"ACE_IsEngineer", 0, true] call ace_common_fnc_assignObjectsInList;
