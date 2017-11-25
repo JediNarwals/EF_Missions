@@ -937,7 +937,6 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="Operation Crossword";
 		timeOfChanges=1800.0002;
 		startWeather=0;
 		startWind=0;
