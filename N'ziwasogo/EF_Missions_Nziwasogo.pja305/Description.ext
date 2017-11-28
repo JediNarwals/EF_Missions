@@ -1,7 +1,7 @@
 author = EuroForce Server Administration;
 briefingName="EuroForce N'ziwasogo Operations";
 overviewText="EuroForce N'ziwasogo Operations";
-onLoadName = "EuroForce N'ziwasogo Operations";
+onLoadName = EuroForce N ziwasogo Operations;
 
 respawn      = 			"BASE";
 respawndelay = 			3;
