@@ -1,11 +1,11 @@
-_vehicle = _this;
+_vehicle = _this select 0;
 
-if (isServer) then {
-_vehicle setObjectTextureGlobal [0, "#(rgb,8,8,3)color(0.14,0.09,0,1)"];
-_vehicle setObjectTextureGlobal [1, "#(rgb,8,8,3)color(0.14,0.09,0,1)"];
+if (isServer) then{
+_vehicle setObjectTextureGlobal [0, "#(rgb,8,8,3)color(0.1,0.13,0,1)"];
+_vehicle setObjectTextureGlobal [1, "#(rgb,8,8,3)color(0.1,0.13,0,1)"];
 };
 
-if (side player == west) then {
+if (side player == east) then {
 
 	[
 	_vehicle,

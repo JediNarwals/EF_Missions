@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=260;
+		nextID=278;
 	};
 	class MarkerIDProvider
 	{
@@ -16,20 +16,19 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=6;
+		nextID=18;
 	};
 	class Camera
 	{
-		pos[]={5984.1138,275.86816,10880.874};
-		dir[]={0.63057727,-0.52579457,-0.57107097};
-		up[]={0.38981748,0.85053384,-0.35302973};
-		aside[]={-0.6713317,2.7707574e-006,-0.74129015};
+		pos[]={6144.0962,248.00189,10873.947};
+		dir[]={0.39023423,-0.69288123,-0.60639524};
+		up[]={0.37499022,0.72099286,-0.58270389};
+		aside[]={-0.84095359,3.0687079e-007,-0.54118031};
 	};
 };
 binarizationWanted=0;
 addons[]=
 {
-	"A3_Ui_F",
 	"A3_Characters_F",
 	"A3_Weapons_F_Rifles_Khaybar",
 	"A3_Weapons_F_Acc",
@@ -57,71 +56,64 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=10;
+		items=9;
 		class Item0
-		{
-			className="A3_Ui_F";
-			name="Arma 3 - User Interface";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item1
 		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item2
+		class Item1
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item3
+		class Item2
 		{
 			className="A3_Characters_F_Mark";
 			name="Arma 3 Marksmen - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item4
+		class Item3
 		{
 			className="A3_Weapons_F_Mark";
 			name="Arma 3 Marksmen - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item5
+		class Item4
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item6
+		class Item5
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item7
+		class Item6
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item8
+		class Item7
 		{
 			className="A3_Soft_F_Beta";
 			name="Arma 3 Beta - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item9
+		class Item8
 		{
 			className="A3_Soft_F_Gamma";
 			name="Arma 3 - Unarmored Land Vehicles";
@@ -423,64 +415,8 @@ class Mission
 	};
 	class Entities
 	{
-		items=47;
+		items=44;
 		class Item0
-		{
-			dataType="Marker";
-			position[]={3076.9761,0,6845.7241};
-			name="Possible Capture Area";
-			type="mil_circle";
-			colorName="ColorUNKNOWN";
-			id=4;
-			atlOffset=-230.09236;
-		};
-		class Item1
-		{
-			dataType="Marker";
-			position[]={7368.3628,-277.7959,5429.8022};
-			name="marker_7";
-			markerType="RECTANGLE";
-			type="rectangle";
-			colorName="ColorWEST";
-			a=50;
-			b=2000;
-			angle=327.09418;
-			id=7;
-			atlOffset=-280.82693;
-		};
-		class Item2
-		{
-			dataType="Marker";
-			position[]={5572.563,105.76762,7006.8213};
-			name="Possible Capture Area_1";
-			type="mil_circle";
-			colorName="ColorUNKNOWN";
-			id=9;
-			atlOffset=-230.09238;
-		};
-		class Item3
-		{
-			dataType="Marker";
-			position[]={7064.4453,-149.76503,7144.7266};
-			name="Possible Capture Area_2";
-			type="mil_circle";
-			colorName="ColorUNKNOWN";
-			id=10;
-			atlOffset=-229.9624;
-		};
-		class Item4
-		{
-			dataType="Marker";
-			position[]={8436.6084,4.4400001,3784.4717};
-			name="BLUFOR  base";
-			markerType="RECTANGLE";
-			type="rectangle";
-			colorName="ColorWEST";
-			a=50;
-			b=50;
-			id=11;
-		};
-		class Item5
 		{
 			dataType="Group";
 			side="East";
@@ -1584,7 +1520,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item6
+		class Item1
 		{
 			dataType="Group";
 			side="West";
@@ -2955,7 +2891,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item7
+		class Item2
 		{
 			dataType="Group";
 			side="West";
@@ -4326,7 +4262,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item8
+		class Item3
 		{
 			dataType="Group";
 			side="East";
@@ -5388,7 +5324,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item9
+		class Item4
 		{
 			dataType="Group";
 			side="West";
@@ -5748,7 +5684,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item10
+		class Item5
 		{
 			dataType="Group";
 			side="East";
@@ -6031,6 +5967,7 @@ class Mission
 					};
 					id=127;
 					type="O_Soldier_TL_F";
+					atlOffset=-7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6104,7 +6041,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item11
+		class Item6
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6195,7 +6132,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item12
+		class Item7
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6204,11 +6141,11 @@ class Mission
 				angles[]={6.2211738,0,6.2518916};
 			};
 			name="sectorAlpha";
-			areaSize[]={25,0,25};
+			areaSize[]={23,0,23};
 			flags=1;
 			id=129;
 			type="ModuleSector_F";
-			atlOffset=0.0002822876;
+			atlOffset=0.0002746582;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6226,7 +6163,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="-1";
+							value="2";
 						};
 					};
 				};
@@ -6245,7 +6182,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="1";
+							value="2";
 						};
 					};
 				};
@@ -6264,7 +6201,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[(_this select 1),20] call bis_fnc_respawnTickets;";
+							value="[(_this select 1),12] call bis_fnc_respawnTickets;";
 						};
 					};
 				};
@@ -6302,7 +6239,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="0";
+							value="4";
 						};
 					};
 				};
@@ -6499,7 +6436,7 @@ class Mission
 				nAttributes=15;
 			};
 		};
-		class Item13
+		class Item8
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6510,7 +6447,7 @@ class Mission
 			id=130;
 			type="LocationArea_F";
 		};
-		class Item14
+		class Item9
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6521,7 +6458,7 @@ class Mission
 			id=131;
 			type="SideBLUFOR_F";
 		};
-		class Item15
+		class Item10
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6532,7 +6469,7 @@ class Mission
 			id=132;
 			type="SideOPFOR_F";
 		};
-		class Item16
+		class Item11
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6544,7 +6481,7 @@ class Mission
 			type="LocationArea_F";
 			atlOffset=7.6293945e-006;
 		};
-		class Item17
+		class Item12
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6555,7 +6492,7 @@ class Mission
 			id=134;
 			type="SideBLUFOR_F";
 		};
-		class Item18
+		class Item13
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6566,7 +6503,7 @@ class Mission
 			id=135;
 			type="SideOPFOR_F";
 		};
-		class Item19
+		class Item14
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6574,7 +6511,7 @@ class Mission
 				position[]={6094.7622,120.32,10760.083};
 			};
 			name="sectorBravo";
-			areaSize[]={24,0,24};
+			areaSize[]={22,0,22};
 			flags=1;
 			id=137;
 			type="ModuleSector_F";
@@ -6595,7 +6532,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="-1";
+							value="2";
 						};
 					};
 				};
@@ -6614,7 +6551,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="1";
+							value="2";
 						};
 					};
 				};
@@ -6633,7 +6570,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[(_this select 1),20] call bis_fnc_respawnTickets;";
+							value="[(_this select 1),12] call bis_fnc_respawnTickets;";
 						};
 					};
 				};
@@ -6671,7 +6608,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="0";
+							value="4";
 						};
 					};
 				};
@@ -6868,7 +6805,7 @@ class Mission
 				nAttributes=15;
 			};
 		};
-		class Item20
+		class Item15
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6880,7 +6817,7 @@ class Mission
 			type="LocationArea_F";
 			atlOffset=7.6293945e-006;
 		};
-		class Item21
+		class Item16
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6892,7 +6829,7 @@ class Mission
 			type="SideBLUFOR_F";
 			atlOffset=0.0031967163;
 		};
-		class Item22
+		class Item17
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -6904,16 +6841,15 @@ class Mission
 			type="SideOPFOR_F";
 			atlOffset=0.0031967163;
 		};
-		class Item23
+		class Item18
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={6216.3379,114.9616,10665.727};
-				angles[]={0.0087964591,0,0};
+				position[]={6214.7168,114.99,10662.412};
 			};
 			name="sectorCharlie";
-			areaSize[]={30,0,30};
+			areaSize[]={25,0,25};
 			flags=1;
 			id=141;
 			type="ModuleSector_F";
@@ -6934,7 +6870,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="-1";
+							value="2";
 						};
 					};
 				};
@@ -6953,7 +6889,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="1";
+							value="2";
 						};
 					};
 				};
@@ -6972,7 +6908,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[(_this select 1),20] call bis_fnc_respawnTickets;";
+							value="[(_this select 1),12] call bis_fnc_respawnTickets;";
 						};
 					};
 				};
@@ -7010,7 +6946,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="0";
+							value="4";
 						};
 					};
 				};
@@ -7207,7 +7143,7 @@ class Mission
 				nAttributes=15;
 			};
 		};
-		class Item24
+		class Item19
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -7221,13 +7157,13 @@ class Mission
 			id=149;
 			type="ModuleCoverMap_F";
 		};
-		class Item25
+		class Item20
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
 				position[]={5942.1797,112.1,10729.733};
-				angles[]={-0,5.1487212,0};
+				angles[]={0,5.1487212,0};
 			};
 			id=153;
 			type="ModuleRespawnPosition_F";
@@ -7331,7 +7267,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item26
+		class Item21
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -7441,13 +7377,13 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item27
+		class Item22
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={5950.4546,112.1,10728.334};
-				angles[]={-0,5.1855826,0};
+				position[]={5950.4551,112.1,10728.334};
+				angles[]={0,5.1855826,0};
 			};
 			id=157;
 			type="ModuleRespawnVehicle_F";
@@ -7487,7 +7423,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="(_this select 0) execVM ""blu_veh_spawn.sqf""; [west, -5] call BIS_fnc_respawnTickets;";
+							value="{[blu_fob] execVM ""blu_veh_spawn.sqf"";} remoteExecCall [""bis_fnc_call"", 0, true]; [west, -5] call BIS_fnc_respawnTickets;";
 						};
 					};
 				};
@@ -7646,7 +7582,7 @@ class Mission
 				nAttributes=10;
 			};
 		};
-		class Item28
+		class Item23
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -7656,6 +7592,7 @@ class Mission
 			};
 			id=158;
 			type="ModuleRespawnVehicle_F";
+			atlOffset=7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -7692,7 +7629,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="(_this select 0) execVM ""op_veh_spawn.sqf""; [east, -2] call BIS_fnc_respawnTickets;";
+							value=" {[op_truck] execVM ""op_veh_spawn.sqf"";} remoteExecCall [""bis_fnc_call"", 0, true];  [east, -2] call BIS_fnc_respawnTickets;";
 						};
 					};
 				};
@@ -7825,7 +7762,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="120";
+							value="45";
 						};
 					};
 				};
@@ -7851,26 +7788,13 @@ class Mission
 				nAttributes=10;
 			};
 		};
-		class Item29
-		{
-			dataType="Marker";
-			position[]={6298.4253,117.66455,8176.3955};
-			name="marker_6";
-			markerType="RECTANGLE";
-			type="rectangle";
-			colorName="ColorEAST";
-			a=50;
-			b=2000;
-			id=6;
-			atlOffset=-76.731934;
-		};
-		class Item30
+		class Item24
 		{
 			dataType="Trigger";
 			position[]={6119.2051,120.20058,10824.004};
 			class Attributes
 			{
-				onActivation="[west,10] call bis_fnc_respawnTickets;" \n "[east,10] call bis_fnc_respawnTickets;" \n "[[west,east],0.5,1,16] call bis_fnc_bleedTickets;" \n "missionActive=true;" \n "publicVariable ""missionActive"";";
+				onActivation="[west,20] call bis_fnc_respawnTickets;" \n "[east,20] call bis_fnc_respawnTickets;" \n "[[west,east],0.5,1,16] call bis_fnc_bleedTickets;" \n "missionActive=true;" \n "publicVariable ""missionActive"";";
 				sizeA=2;
 				sizeB=2;
 				activationType="NOT PRESENT";
@@ -7879,9 +7803,8 @@ class Mission
 			};
 			id=159;
 			type="EmptyDetector";
-			atlOffset=7.6293945e-006;
 		};
-		class Item31
+		class Item25
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -7992,7 +7915,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item32
+		class Item26
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -8101,7 +8024,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item33
+		class Item27
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -8153,7 +8076,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item34
+		class Item28
 		{
 			dataType="Layer";
 			name="Layer 1";
@@ -8197,7 +8120,7 @@ class Mission
 			id=184;
 			atlOffset=-2.8785095;
 		};
-		class Item35
+		class Item29
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8213,9 +8136,9 @@ class Mission
 			};
 			id=185;
 			type="O_Truck_02_covered_F";
-			atlOffset=0.016998291;
+			atlOffset=0.01700592;
 		};
-		class Item36
+		class Item30
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8232,7 +8155,7 @@ class Mission
 			id=186;
 			type="O_Truck_02_medical_F";
 		};
-		class Item37
+		class Item31
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8248,8 +8171,9 @@ class Mission
 			};
 			id=187;
 			type="I_Truck_02_medical_F";
+			atlOffset=-7.6293945e-006;
 		};
-		class Item38
+		class Item32
 		{
 			dataType="Object";
 			class PositionInfo
@@ -8266,13 +8190,13 @@ class Mission
 			id=188;
 			type="I_Truck_02_covered_F";
 		};
-		class Item39
+		class Item33
 		{
 			dataType="Group";
 			side="Independent";
 			class Entities
 			{
-				items=11;
+				items=10;
 				class Item0
 				{
 					dataType="Object";
@@ -8285,7 +8209,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="this setSkill [""aimingAccuracy"",0.1];";
+						init="this setSkill [""aimingAccuracy"",0.02];" \n "if (isServer) then {" \n "" \n "this addEventHandler [""killed"", ""[resistance, -2] call BIS_fnc_respawnTickets;""]" \n "" \n "}";
 					};
 					id=220;
 					type="I_Soldier_lite_F";
@@ -8302,7 +8226,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="this setSkill [""aimingAccuracy"",0.1];";
+						init="this setSkill [""aimingAccuracy"",0.02];" \n "if (isServer) then {" \n "" \n "this addEventHandler [""killed"", ""[resistance, -2] call BIS_fnc_respawnTickets;""]" \n "" \n "}";
 					};
 					id=221;
 					type="I_Soldier_lite_F";
@@ -8319,7 +8243,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="this setSkill [""aimingAccuracy"",0.1];";
+						init="this setSkill [""aimingAccuracy"",0.02];" \n "if (isServer) then {" \n "" \n "this addEventHandler [""killed"", ""[resistance, -2] call BIS_fnc_respawnTickets;""]" \n "" \n "}";
 					};
 					id=222;
 					type="I_Soldier_lite_F";
@@ -8336,7 +8260,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="this setSkill [""aimingAccuracy"",0.1];";
+						init="this setSkill [""aimingAccuracy"",0.02];" \n "if (isServer) then {" \n "" \n "this addEventHandler [""killed"", ""[resistance, -2] call BIS_fnc_respawnTickets;""]" \n "" \n "}";
 					};
 					id=223;
 					type="I_Soldier_lite_F";
@@ -8353,7 +8277,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="this setSkill [""aimingAccuracy"",0.1];";
+						init="this setSkill [""aimingAccuracy"",0.02];" \n "if (isServer) then {" \n "" \n "this addEventHandler [""killed"", ""[resistance, -2] call BIS_fnc_respawnTickets;""]" \n "" \n "}";
 					};
 					id=224;
 					type="I_Soldier_lite_F";
@@ -8370,30 +8294,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="this setSkill [""aimingAccuracy"",0.1];";
+						init="this setSkill [""aimingAccuracy"",0.02];" \n "if (isServer) then {" \n "" \n "this addEventHandler [""killed"", ""[resistance, -2] call BIS_fnc_respawnTickets;""]" \n "" \n "}";
 					};
 					id=225;
 					type="I_Soldier_lite_F";
 				};
 				class Item6
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={6084.9507,120.60705,10749.296};
-					};
-					side="Independent";
-					flags=1;
-					class Attributes
-					{
-						skill=0.2;
-						init="this setSkill [""aimingAccuracy"",0.1];";
-					};
-					id=226;
-					type="I_Soldier_lite_F";
-					atlOffset=0.277771;
-				};
-				class Item7
 				{
 					dataType="Waypoint";
 					position[]={6082.1572,120.32,10770.71};
@@ -8404,7 +8310,7 @@ class Mission
 					id=227;
 					type="Move";
 				};
-				class Item8
+				class Item7
 				{
 					dataType="Waypoint";
 					position[]={6107.689,120.32,10771.483};
@@ -8415,7 +8321,7 @@ class Mission
 					id=228;
 					type="Move";
 				};
-				class Item9
+				class Item8
 				{
 					dataType="Waypoint";
 					position[]={6107.9795,120.41571,10746.015};
@@ -8426,7 +8332,7 @@ class Mission
 					id=229;
 					type="Move";
 				};
-				class Item10
+				class Item9
 				{
 					dataType="Waypoint";
 					position[]={6082.4395,120.34626,10747.475};
@@ -8446,13 +8352,13 @@ class Mission
 			};
 			id=219;
 		};
-		class Item40
+		class Item34
 		{
 			dataType="Group";
 			side="Independent";
 			class Entities
 			{
-				items=11;
+				items=10;
 				class Item0
 				{
 					dataType="Object";
@@ -8465,7 +8371,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="this setSkill [""aimingAccuracy"",0.1];";
+						init="this setSkill [""aimingAccuracy"",0.02];" \n "if (isServer) then {" \n "" \n "this addEventHandler [""killed"", ""[resistance, -2] call BIS_fnc_respawnTickets;""]" \n "" \n "}";
 					};
 					id=232;
 					type="I_Soldier_lite_F";
@@ -8482,7 +8388,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="this setSkill [""aimingAccuracy"",0.1];";
+						init="this setSkill [""aimingAccuracy"",0.02];" \n "if (isServer) then {" \n "" \n "this addEventHandler [""killed"", ""[resistance, -2] call BIS_fnc_respawnTickets;""]" \n "" \n "}";
 					};
 					id=233;
 					type="I_Soldier_lite_F";
@@ -8499,7 +8405,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="this setSkill [""aimingAccuracy"",0.1];";
+						init="this setSkill [""aimingAccuracy"",0.02];" \n "if (isServer) then {" \n "" \n "this addEventHandler [""killed"", ""[resistance, -2] call BIS_fnc_respawnTickets;""]" \n "" \n "}";
 					};
 					id=234;
 					type="I_Soldier_lite_F";
@@ -8517,7 +8423,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="this setSkill [""aimingAccuracy"",0.1];";
+						init="this setSkill [""aimingAccuracy"",0.02];" \n "if (isServer) then {" \n "" \n "this addEventHandler [""killed"", ""[resistance, -2] call BIS_fnc_respawnTickets;""]" \n "" \n "}";
 					};
 					id=235;
 					type="I_Soldier_lite_F";
@@ -8534,29 +8440,12 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="this setSkill [""aimingAccuracy"",0.1];";
+						init="this setSkill [""aimingAccuracy"",0.02];" \n "if (isServer) then {" \n "" \n "this addEventHandler [""killed"", ""[resistance, -2] call BIS_fnc_respawnTickets;""]" \n "" \n "}";
 					};
 					id=236;
 					type="I_Soldier_lite_F";
 				};
 				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={6200.9194,114.99144,10653.37};
-					};
-					side="Independent";
-					flags=5;
-					class Attributes
-					{
-						skill=0.2;
-						init="this setSkill [""aimingAccuracy"",0.1];";
-					};
-					id=237;
-					type="I_Soldier_lite_F";
-				};
-				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
@@ -8568,13 +8457,13 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="this setSkill [""aimingAccuracy"",0.1];";
+						init="this setSkill [""aimingAccuracy"",0.02];" \n "if (isServer) then {" \n "" \n "this addEventHandler [""killed"", ""[resistance, -2] call BIS_fnc_respawnTickets;""]" \n "" \n "}";
 					};
 					id=238;
 					type="I_Soldier_lite_F";
 					atlOffset=0.17928314;
 				};
-				class Item7
+				class Item6
 				{
 					dataType="Waypoint";
 					position[]={6203.5986,114.89381,10672.854};
@@ -8586,7 +8475,7 @@ class Mission
 					type="Move";
 					atlOffset=0.023406982;
 				};
-				class Item8
+				class Item7
 				{
 					dataType="Waypoint";
 					position[]={6229.1304,114.55591,10673.627};
@@ -8598,7 +8487,7 @@ class Mission
 					type="Move";
 					atlOffset=0.0070419312;
 				};
-				class Item9
+				class Item8
 				{
 					dataType="Waypoint";
 					position[]={6229.4209,115.07988,10648.158};
@@ -8609,7 +8498,7 @@ class Mission
 					id=241;
 					type="Move";
 				};
-				class Item10
+				class Item9
 				{
 					dataType="Waypoint";
 					position[]={6203.8809,115.03495,10649.618};
@@ -8629,13 +8518,13 @@ class Mission
 			};
 			id=231;
 		};
-		class Item41
+		class Item35
 		{
 			dataType="Group";
 			side="Independent";
 			class Entities
 			{
-				items=11;
+				items=10;
 				class Item0
 				{
 					dataType="Object";
@@ -8648,7 +8537,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="this setSkill [""aimingAccuracy"",0.1];";
+						init="this setSkill [""aimingAccuracy"",0.02];" \n "if (isServer) then {" \n "" \n "this addEventHandler [""killed"", ""[resistance, -2] call BIS_fnc_respawnTickets;""]" \n "" \n "}";
 					};
 					id=244;
 					type="I_Soldier_lite_F";
@@ -8666,7 +8555,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="this setSkill [""aimingAccuracy"",0.1];";
+						init="this setSkill [""aimingAccuracy"",0.02];" \n "if (isServer) then {" \n "" \n "this addEventHandler [""killed"", ""[resistance, -2] call BIS_fnc_respawnTickets;""]" \n "" \n "}";
 					};
 					id=245;
 					type="I_Soldier_lite_F";
@@ -8684,7 +8573,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="this setSkill [""aimingAccuracy"",0.1];";
+						init="this setSkill [""aimingAccuracy"",0.02];" \n "if (isServer) then {" \n "" \n "this addEventHandler [""killed"", ""[resistance, -2] call BIS_fnc_respawnTickets;""]" \n "" \n "}";
 					};
 					id=246;
 					type="I_Soldier_lite_F";
@@ -8702,7 +8591,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="this setSkill [""aimingAccuracy"",0.1];";
+						init="this setSkill [""aimingAccuracy"",0.02];" \n "if (isServer) then {" \n "" \n "this addEventHandler [""killed"", ""[resistance, -2] call BIS_fnc_respawnTickets;""]" \n "" \n "}";
 					};
 					id=247;
 					type="I_Soldier_lite_F";
@@ -8720,31 +8609,13 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="this setSkill [""aimingAccuracy"",0.1];";
+						init="this setSkill [""aimingAccuracy"",0.02];" \n "if (isServer) then {" \n "" \n "this addEventHandler [""killed"", ""[resistance, -2] call BIS_fnc_respawnTickets;""]" \n "" \n "}";
 					};
 					id=248;
 					type="I_Soldier_lite_F";
 					atlOffset=7.6293945e-006;
 				};
 				class Item5
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={6325.1426,108.80145,10725.464};
-					};
-					side="Independent";
-					flags=5;
-					class Attributes
-					{
-						skill=0.2;
-						init="this setSkill [""aimingAccuracy"",0.1];";
-					};
-					id=249;
-					type="I_Soldier_lite_F";
-					atlOffset=7.6293945e-006;
-				};
-				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
@@ -8756,13 +8627,13 @@ class Mission
 					class Attributes
 					{
 						skill=0.2;
-						init="this setSkill [""aimingAccuracy"",0.1];";
+						init="this setSkill [""aimingAccuracy"",0.02];" \n "if (isServer) then {" \n "" \n "this addEventHandler [""killed"", ""[resistance, -2] call BIS_fnc_respawnTickets;""]" \n "" \n "}";
 					};
 					id=250;
 					type="I_Soldier_lite_F";
 					atlOffset=7.6293945e-006;
 				};
-				class Item7
+				class Item6
 				{
 					dataType="Waypoint";
 					position[]={6327.8218,109.36097,10744.947};
@@ -8774,7 +8645,7 @@ class Mission
 					type="Move";
 					atlOffset=0.56096649;
 				};
-				class Item8
+				class Item7
 				{
 					dataType="Waypoint";
 					position[]={6353.3535,108.8,10745.721};
@@ -8785,7 +8656,7 @@ class Mission
 					id=252;
 					type="Move";
 				};
-				class Item9
+				class Item8
 				{
 					dataType="Waypoint";
 					position[]={6353.644,108.8,10720.252};
@@ -8796,7 +8667,7 @@ class Mission
 					id=253;
 					type="Move";
 				};
-				class Item10
+				class Item9
 				{
 					dataType="Waypoint";
 					position[]={6328.104,108.8,10721.712};
@@ -8817,10 +8688,10 @@ class Mission
 			id=243;
 			atlOffset=7.6293945e-006;
 		};
-		class Item42
+		class Item36
 		{
 			dataType="Trigger";
-			position[]={6098.5952,120.18787,10821.77};
+			position[]={6112.3579,120.19607,10827.746};
 			class Attributes
 			{
 				condition="true";
@@ -8831,16 +8702,15 @@ class Mission
 			};
 			id=255;
 			type="EmptyDetector";
-			atlOffset=-7.6293945e-006;
 		};
-		class Item43
+		class Item37
 		{
 			dataType="Layer";
 			name="Layer 6";
 			id=256;
 			atlOffset=96.5;
 		};
-		class Item44
+		class Item38
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -8893,7 +8763,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item45
+		class Item39
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -8939,7 +8809,212 @@ class Mission
 									"STRING"
 								};
 							};
-							value="(_this select 0) execVM ""blu_veh_spawn.sqf""; [west, -2] call BIS_fnc_respawnTickets;";
+							value="{[blu_truck] execVM ""blu_veh_spawn.sqf"";} remoteExecCall [""bis_fnc_call"", 0, true]; [west, -2] call BIS_fnc_respawnTickets;";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleRespawnVehicle_F_RespawnWhenDisabled";
+					expression="_this setVariable ['RespawnWhenDisabled',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleRespawnVehicle_F_DesertedDistance";
+					expression="_this setVariable ['DesertedDistance',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleRespawnVehicle_F_PositionType";
+					expression="_this setVariable ['PositionType',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="2";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ModuleRespawnVehicle_F_RespawnCount";
+					expression="_this setVariable ['RespawnCount',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="ModuleRespawnVehicle_F_Position";
+					expression="_this setVariable ['Position',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="ModuleRespawnVehicle_F_Wreck";
+					expression="_this setVariable ['Wreck',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="2";
+						};
+					};
+				};
+				class Attribute8
+				{
+					property="ModuleRespawnVehicle_F_Delay";
+					expression="_this setVariable ['Delay',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="45";
+						};
+					};
+				};
+				class Attribute9
+				{
+					property="ModuleRespawnVehicle_F_ShowNotification";
+					expression="_this setVariable ['ShowNotification',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="1";
+						};
+					};
+				};
+				nAttributes=10;
+			};
+		};
+		class Item40
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={6437.915,112.10824,10624.261};
+				angles[]={0.058328904,1.7887181,6.2471962};
+			};
+			id=259;
+			type="ModuleRespawnVehicle_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleRespawnVehicle_F_ForcedRespawn";
+					expression="_this setVariable ['ForcedRespawn',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="0";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleRespawnVehicle_F_Init";
+					expression="_this setVariable ['Init',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value=" {[op_fob] execVM ""op_veh_spawn.sqf"";} remoteExecCall [""bis_fnc_call"", 0, true];  [east, -5] call BIS_fnc_respawnTickets;";
 						};
 					};
 				};
@@ -9098,210 +9173,37 @@ class Mission
 				nAttributes=10;
 			};
 		};
-		class Item46
+		class Item41
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={6437.915,112.10824,10624.261};
-				angles[]={0.058332846,1.7887181,6.2472029};
+				position[]={6366.8208,110.17473,10698.4};
 			};
-			id=259;
-			type="ModuleRespawnVehicle_F";
-			class CustomAttributes
+			id=260;
+			type="SideResistance_F";
+			atlOffset=5.3405762e-005;
+		};
+		class Item42
+		{
+			dataType="Logic";
+			class PositionInfo
 			{
-				class Attribute0
-				{
-					property="ModuleRespawnVehicle_F_ForcedRespawn";
-					expression="_this setVariable ['ForcedRespawn',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="0";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleRespawnVehicle_F_Init";
-					expression="_this setVariable ['Init',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="(_this select 0) execVM ""op_veh_spawn.sqf""; [east, -5] call BIS_fnc_respawnTickets;";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleRespawnVehicle_F_RespawnWhenDisabled";
-					expression="_this setVariable ['RespawnWhenDisabled',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleRespawnVehicle_F_DesertedDistance";
-					expression="_this setVariable ['DesertedDistance',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ModuleRespawnVehicle_F_PositionType";
-					expression="_this setVariable ['PositionType',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="2";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="ModuleRespawnVehicle_F_RespawnCount";
-					expression="_this setVariable ['RespawnCount',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="ModuleRespawnVehicle_F_Position";
-					expression="_this setVariable ['Position',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="0";
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="ModuleRespawnVehicle_F_Wreck";
-					expression="_this setVariable ['Wreck',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="2";
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="ModuleRespawnVehicle_F_Delay";
-					expression="_this setVariable ['Delay',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="120";
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="ModuleRespawnVehicle_F_ShowNotification";
-					expression="_this setVariable ['ShowNotification',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="1";
-						};
-					};
-				};
-				nAttributes=10;
+				position[]={6233.2808,115.03648,10656.689};
 			};
+			id=261;
+			type="SideResistance_F";
+		};
+		class Item43
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={6109.7183,120.37194,10754.386};
+			};
+			id=262;
+			type="SideResistance_F";
+			atlOffset=7.6293945e-006;
 		};
 	};
 	class Connections
@@ -9706,7 +9608,7 @@ class Mission
 			class Item39
 			{
 				linkID=39;
-				item0=226;
+				item0=232;
 				item1=257;
 				class CustomData
 				{
@@ -9716,7 +9618,7 @@ class Mission
 			class Item40
 			{
 				linkID=40;
-				item0=232;
+				item0=233;
 				item1=257;
 				class CustomData
 				{
@@ -9726,7 +9628,7 @@ class Mission
 			class Item41
 			{
 				linkID=41;
-				item0=233;
+				item0=234;
 				item1=257;
 				class CustomData
 				{
@@ -9736,7 +9638,7 @@ class Mission
 			class Item42
 			{
 				linkID=42;
-				item0=234;
+				item0=235;
 				item1=257;
 				class CustomData
 				{
@@ -9746,7 +9648,7 @@ class Mission
 			class Item43
 			{
 				linkID=43;
-				item0=235;
+				item0=236;
 				item1=257;
 				class CustomData
 				{
@@ -9756,7 +9658,7 @@ class Mission
 			class Item44
 			{
 				linkID=44;
-				item0=236;
+				item0=238;
 				item1=257;
 				class CustomData
 				{
@@ -9766,7 +9668,7 @@ class Mission
 			class Item45
 			{
 				linkID=45;
-				item0=237;
+				item0=244;
 				item1=257;
 				class CustomData
 				{
@@ -9776,7 +9678,7 @@ class Mission
 			class Item46
 			{
 				linkID=46;
-				item0=238;
+				item0=245;
 				item1=257;
 				class CustomData
 				{
@@ -9786,7 +9688,7 @@ class Mission
 			class Item47
 			{
 				linkID=47;
-				item0=244;
+				item0=246;
 				item1=257;
 				class CustomData
 				{
@@ -9796,7 +9698,7 @@ class Mission
 			class Item48
 			{
 				linkID=48;
-				item0=245;
+				item0=247;
 				item1=257;
 				class CustomData
 				{
@@ -9806,7 +9708,7 @@ class Mission
 			class Item49
 			{
 				linkID=49;
-				item0=246;
+				item0=248;
 				item1=257;
 				class CustomData
 				{
@@ -9816,7 +9718,7 @@ class Mission
 			class Item50
 			{
 				linkID=50;
-				item0=247;
+				item0=250;
 				item1=257;
 				class CustomData
 				{
@@ -9826,7 +9728,7 @@ class Mission
 			class Item51
 			{
 				linkID=51;
-				item0=248;
+				item0=185;
 				item1=257;
 				class CustomData
 				{
@@ -9836,7 +9738,7 @@ class Mission
 			class Item52
 			{
 				linkID=52;
-				item0=249;
+				item0=186;
 				item1=257;
 				class CustomData
 				{
@@ -9846,7 +9748,7 @@ class Mission
 			class Item53
 			{
 				linkID=53;
-				item0=250;
+				item0=21;
 				item1=257;
 				class CustomData
 				{
@@ -9856,7 +9758,7 @@ class Mission
 			class Item54
 			{
 				linkID=54;
-				item0=185;
+				item0=87;
 				item1=257;
 				class CustomData
 				{
@@ -9866,7 +9768,7 @@ class Mission
 			class Item55
 			{
 				linkID=55;
-				item0=186;
+				item0=89;
 				item1=257;
 				class CustomData
 				{
@@ -9876,7 +9778,7 @@ class Mission
 			class Item56
 			{
 				linkID=56;
-				item0=21;
+				item0=91;
 				item1=257;
 				class CustomData
 				{
@@ -9886,7 +9788,7 @@ class Mission
 			class Item57
 			{
 				linkID=57;
-				item0=87;
+				item0=81;
 				item1=257;
 				class CustomData
 				{
@@ -9896,7 +9798,7 @@ class Mission
 			class Item58
 			{
 				linkID=58;
-				item0=89;
+				item0=83;
 				item1=257;
 				class CustomData
 				{
@@ -9906,7 +9808,7 @@ class Mission
 			class Item59
 			{
 				linkID=59;
-				item0=91;
+				item0=85;
 				item1=257;
 				class CustomData
 				{
@@ -9916,7 +9818,7 @@ class Mission
 			class Item60
 			{
 				linkID=60;
-				item0=81;
+				item0=93;
 				item1=257;
 				class CustomData
 				{
@@ -9926,7 +9828,7 @@ class Mission
 			class Item61
 			{
 				linkID=61;
-				item0=83;
+				item0=111;
 				item1=257;
 				class CustomData
 				{
@@ -9936,7 +9838,7 @@ class Mission
 			class Item62
 			{
 				linkID=62;
-				item0=85;
+				item0=112;
 				item1=257;
 				class CustomData
 				{
@@ -9946,7 +9848,7 @@ class Mission
 			class Item63
 			{
 				linkID=63;
-				item0=93;
+				item0=113;
 				item1=257;
 				class CustomData
 				{
@@ -9956,7 +9858,7 @@ class Mission
 			class Item64
 			{
 				linkID=64;
-				item0=111;
+				item0=114;
 				item1=257;
 				class CustomData
 				{
@@ -9966,7 +9868,7 @@ class Mission
 			class Item65
 			{
 				linkID=65;
-				item0=112;
+				item0=115;
 				item1=257;
 				class CustomData
 				{
@@ -9976,7 +9878,7 @@ class Mission
 			class Item66
 			{
 				linkID=66;
-				item0=113;
+				item0=116;
 				item1=257;
 				class CustomData
 				{
@@ -9986,7 +9888,7 @@ class Mission
 			class Item67
 			{
 				linkID=67;
-				item0=114;
+				item0=117;
 				item1=257;
 				class CustomData
 				{
@@ -9996,7 +9898,7 @@ class Mission
 			class Item68
 			{
 				linkID=68;
-				item0=115;
+				item0=118;
 				item1=257;
 				class CustomData
 				{
@@ -10006,8 +9908,8 @@ class Mission
 			class Item69
 			{
 				linkID=69;
-				item0=116;
-				item1=257;
+				item0=157;
+				item1=187;
 				class CustomData
 				{
 					type="Sync";
@@ -10016,8 +9918,8 @@ class Mission
 			class Item70
 			{
 				linkID=70;
-				item0=117;
-				item1=257;
+				item0=258;
+				item1=188;
 				class CustomData
 				{
 					type="Sync";
@@ -10026,8 +9928,8 @@ class Mission
 			class Item71
 			{
 				linkID=71;
-				item0=118;
-				item1=257;
+				item0=158;
+				item1=185;
 				class CustomData
 				{
 					type="Sync";
@@ -10036,8 +9938,8 @@ class Mission
 			class Item72
 			{
 				linkID=72;
-				item0=157;
-				item1=187;
+				item0=259;
+				item1=186;
 				class CustomData
 				{
 					type="Sync";
@@ -10046,8 +9948,8 @@ class Mission
 			class Item73
 			{
 				linkID=73;
-				item0=258;
-				item1=188;
+				item0=262;
+				item1=137;
 				class CustomData
 				{
 					type="Sync";
@@ -10056,8 +9958,8 @@ class Mission
 			class Item74
 			{
 				linkID=74;
-				item0=158;
-				item1=185;
+				item0=261;
+				item1=141;
 				class CustomData
 				{
 					type="Sync";
@@ -10066,8 +9968,8 @@ class Mission
 			class Item75
 			{
 				linkID=75;
-				item0=259;
-				item1=186;
+				item0=260;
+				item1=129;
 				class CustomData
 				{
 					type="Sync";

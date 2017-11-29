@@ -37,8 +37,3 @@ if (hasInterface) then {
 		};
 	};
 };
-
-[blu_fob] execVM "blu_veh_spawn.sqf";
-[blu_truck] execVM "blu_veh_spawn.sqf";
-[op_truck] execVM "op_veh_spawn.sqf";
-[op_fob] execVM "op_veh_spawn.sqf";
