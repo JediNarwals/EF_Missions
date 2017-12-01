@@ -10,10 +10,9 @@ if (hasInterface) then {
 
 0 = [] spawn {
 
+	sleep 10;
 	private ["_eastTickets", "_westTickets"];
 	while {true} do {
-	   sleep 1;
-
 	   _eastTickets = [east] call BIS_fnc_respawnTickets;
 	   _westTickets = [west] call BIS_fnc_respawnTickets;
 
