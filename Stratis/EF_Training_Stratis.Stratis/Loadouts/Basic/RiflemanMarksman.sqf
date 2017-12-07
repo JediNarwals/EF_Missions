@@ -1,6 +1,3 @@
-comment "Exported from Arsenal by B. Doom";
-
-comment "Remove existing items";
 removeAllWeapons player;
 removeAllItems player;
 removeAllAssignedItems player;
@@ -10,7 +7,6 @@ removeBackpack player;
 removeHeadgear player;
 removeGoggles player;
 
-comment "Add containers";
 player forceAddUniform "VSM_MulticamTropic_Crye_Camo";
 for "_i" from 1 to 9 do {player addItemToUniform "ACE_elasticBandage";};
 for "_i" from 1 to 9 do {player addItemToUniform "ACE_packingBandage";};
@@ -31,23 +27,16 @@ for "_i" from 1 to 10 do {player addItemToVest "rhsusf_20Rnd_762x51_m118_special
 player addHeadgear "VSM_Mich2000_2_MulticamTropic";
 player addGoggles "VSM_Shemagh_Goggles_OD";
 
-comment "Add weapons";
 player addWeapon "rhs_weap_sr25_ec";
 player addPrimaryWeaponItem "SMA_ANPEQ15_BLK";
 player addPrimaryWeaponItem "SMA_ELCAN_SPECTER_4z";
 player addPrimaryWeaponItem "rhsusf_acc_harris_bipod";
 player addWeapon "rhsusf_weap_glock17g4";
 
-comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "tf_microdagr";
 player linkItem "tf_anprc152_9";
 
-comment "Set identity";
 player setFace "WhiteHead_02";
 player setSpeaker "ace_novoice";
-
-
-[[player],"ace_medical_medicClass", 0, true] call ace_common_fnc_assignObjectsInList;
-[[player],"ACE_IsEngineer", 0, true] call ace_common_fnc_assignObjectsInList;
