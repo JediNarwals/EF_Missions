@@ -3786,7 +3786,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.40000001;
-						description="Section 2IC";
+						description="Section 2IC/Interpreter";
 						isPlayable=1;
 						class Inventory
 						{
