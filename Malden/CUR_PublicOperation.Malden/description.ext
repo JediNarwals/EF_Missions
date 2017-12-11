@@ -1,0 +1,51 @@
+onLoadMission = "The Wizna Defence";
+onLoadIntro = "Defend your FOB on Malden for as long as possible.";
+loadScreen =  "Images\EUROF_LOAD_IMAGE.jpg";
+
+
+respawn = "BASE";
+enableTeamSwitch = 0; //Manual team switch disabled
+respawnDelay = 15;
+respawnOnStart = 0;//Dont respawn on start. Run respawn script on start.
+respawnTemplatesWest[] = {"Spectator","MenuPosition","Counter","Tickets"};
+respawnTemplatesVirtual[] = {};
+
+
+disabledAI = 1;
+enableDebugConsole = 1;
+
+
+class CfgSounds
+{
+	class furnal
+	{
+		name = "furnal";
+		sound[] = {"\sound\furnal.ogg", 0.4, 1};
+		titles[] = {1, ""};
+	};
+	class burned
+	{
+		name = "burned";
+		sound[] = {"\sound\burned.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class tipat
+	{
+		name = "tipat";
+		sound[] = {"\sound\tipat.ogg", 0.8, 1};
+		titles[] = {1, ""};
+	};
+};
+
+
+
+
+class CfgDebriefing
+{
+	class CustomEndingWin
+	{
+		title = "BLUFOR Neutralized";
+		subtitle = "CSAT Overthrew NATO";
+		description = "CAST captured the outpost and BLUFOR lost the remaining forces on the island!";
+	};
+};
