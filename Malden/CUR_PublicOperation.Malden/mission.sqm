@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=549;
+		nextID=586;
 	};
 	class Camera
 	{
@@ -8594,6 +8594,7 @@ class Mission
 					};
 					id=1516;
 					type="Land_HBarrier_5_F";
+					atlOffset=-7.6293945e-006;
 				};
 			};
 			id=1433;
@@ -18457,7 +18458,7 @@ class Mission
 			};
 			id=2196;
 			type="ModuleChemlight_F";
-			atlOffset=0.048797607;
+			atlOffset=0.048805237;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -18800,7 +18801,7 @@ class Mission
 					};
 					id=2254;
 					type="B_medic_F";
-					atlOffset=0.00060272217;
+					atlOffset=0.00061035156;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -19863,7 +19864,7 @@ class Mission
 					};
 					id=2264;
 					type="B_medic_F";
-					atlOffset=1.5258789e-005;
+					atlOffset=7.6293945e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -20530,7 +20531,7 @@ class Mission
 					};
 					id=2270;
 					type="B_medic_F";
-					atlOffset=0.010787964;
+					atlOffset=0.010780334;
 					class CustomAttributes
 					{
 						class Attribute0

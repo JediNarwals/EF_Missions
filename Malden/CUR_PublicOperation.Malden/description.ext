@@ -7,7 +7,7 @@ respawn = "BASE";
 enableTeamSwitch = 0; //Manual team switch disabled
 respawnDelay = 15;
 respawnOnStart = 0;//Dont respawn on start. Run respawn script on start.
-respawnTemplatesWest[] = {"Spectator","MenuPosition","Counter","Tickets"};
+respawnTemplates[] = {"MenuPosition","MenuInventory","Tickets"};
 respawnTemplatesVirtual[] = {};
 
 

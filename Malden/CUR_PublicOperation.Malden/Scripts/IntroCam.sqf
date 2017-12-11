@@ -1,4 +1,3 @@
-//Called once all players are loaded and ready. Zeus will also be locked from editing untill everyone has connected. Can be skipped by setting imReady to true.
 if (side player == west) then {
 		0 fadeMusic 0;
 		sleep 0.1;
