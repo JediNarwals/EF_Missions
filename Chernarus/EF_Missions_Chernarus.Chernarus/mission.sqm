@@ -363,6 +363,7 @@ class Mission
 	class Intel
 	{
 		briefingName="Operation Backlash";
+		overviewText="EuroForce Chernarus Operations";
 		timeOfChanges=1800.0002;
 		startWeather=0.25;
 		startWind=0.1;

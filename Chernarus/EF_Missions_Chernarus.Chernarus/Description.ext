@@ -1,7 +1,7 @@
 author = EuroForce Server Administration;
-briefingName="EuroForce Dev Operations";
-overviewText="EuroForce Dev Operations";
-onLoadName = EuroForce Dev Operations;
+briefingName="EuroForce Chernarus Operations";
+overviewText="EuroForce Chernarus Operations";
+onLoadName = EuroForce Chernarus Operations;
 
 respawn      = 			"BASE";
 respawndelay = 			3;
