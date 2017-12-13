@@ -388,7 +388,6 @@ class Mission
 	class Intel
 	{
 		briefingName="Operation Backlash";
-		overviewText="Operation Pickpocket - By Curious";
 		timeOfChanges=1800.0002;
 		startWeather=0.25;
 		startWind=0.1;
