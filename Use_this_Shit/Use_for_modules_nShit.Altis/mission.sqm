@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=641;
+	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=85;
+		nextID=87;
 	};
 	class Camera
 	{
@@ -36,7 +36,6 @@ addons[]=
 	"A3_Modules_F_Multiplayer",
 	"acex_viewrestriction",
 	"task_force_radio_items",
-	"mcc_sandbox",
 	"rhsusf_c_troops",
 	"A3_Weapons_F",
 	"VSM_Shemagh_config",
@@ -45,14 +44,13 @@ addons[]=
 	"VSM_Vests_Config",
 	"rhsusf_c_weapons",
 	"A3_Characters_F",
-	"ace_goggles",
-	"JS_JC_FA18"
+	"ace_goggles"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=26;
+		items=24;
 		class Item0
 		{
 			className="ace_advanced_ballistics";
@@ -160,69 +158,58 @@ class AddonsMetaData
 		};
 		class Item15
 		{
-			className="mcc_sandbox";
-			name="MCC Sandbox";
-			author="shay_gman";
-		};
-		class Item16
-		{
 			className="rhsusf_c_troops";
 			name="RHSUSF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item17
+		class Item16
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item18
+		class Item17
 		{
 			className="VSM_Shemagh_config";
 			name="VSM_Shemagh_config";
 		};
-		class Item19
+		class Item18
 		{
 			className="VSM_HELMETS";
 			name="VSM_HELMETS";
 		};
-		class Item20
+		class Item19
 		{
 			className="VSM_MulticamTropic_Config";
 			name="VSM_MulticamTropic_Config";
 		};
-		class Item21
+		class Item20
 		{
 			className="VSM_Vests_Config";
 			name="VSM_Vests_Config";
 		};
-		class Item22
+		class Item21
 		{
 			className="rhsusf_c_weapons";
 			name="RHSUSF Weapons & Accessories";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item23
+		class Item22
 		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item24
+		class Item23
 		{
 			className="ace_goggles";
 			name="ACE3 - Goggles";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
-		};
-		class Item25
-		{
-			className="JS_JC_FA18";
-			name="JS_JC_FA18";
 		};
 	};
 };
@@ -255,7 +242,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=28;
+		items=26;
 		class Item0
 		{
 			dataType="Logic";
@@ -2466,452 +2453,6 @@ class Mission
 		};
 		class Item20
 		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={14722.353,17.91,16777.73};
-			};
-			id=47;
-			type="MCC_Module_settings";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="defaultCASEnabled";
-					expression="_this setVariable ['defaultCASEnabled',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="timeAccel";
-					expression="_this setVariable ['timeAccel',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="defaultSupplyDropsEnabled";
-					expression="_this setVariable ['defaultSupplyDropsEnabled',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="commanderConsole";
-					expression="_this setVariable ['commanderConsole',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="respawnOnGroupLeader";
-					expression="_this setVariable ['respawnOnGroupLeader',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="sync";
-					expression="_this setVariable ['sync',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="allowRTS";
-					expression="_this setVariable ['allowRTS',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="logistics";
-					expression="_this setVariable ['logistics',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="commanderConsoleShowGPS";
-					expression="_this setVariable ['commanderConsoleShowGPS',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="sqlPDA";
-					expression="_this setVariable ['sqlPDA',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute10
-				{
-					property="respawnCinematic";
-					expression="_this setVariable ['respawnCinematic',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute11
-				{
-					property="deleteBody";
-					expression="_this setVariable ['deleteBody',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute12
-				{
-					property="t2t";
-					expression="_this setVariable ['t2t',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute13
-				{
-					property="squadDialog";
-					expression="_this setVariable ['squadDialog',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute14
-				{
-					property="messages";
-					expression="_this setVariable ['messages',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute15
-				{
-					property="respawnMenu";
-					expression="_this setVariable ['respawnMenu',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute16
-				{
-					property="artilleryComputer";
-					expression="_this setVariable ['artilleryComputer',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute17
-				{
-					property="commanderConsoleAI";
-					expression="_this setVariable ['commanderConsoleAI',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute18
-				{
-					property="commanderConsoleWP";
-					expression="_this setVariable ['commanderConsoleWP',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute19
-				{
-					property="saveGear";
-					expression="_this setVariable ['saveGear',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				nAttributes=20;
-			};
-		};
-		class Item21
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={14715.864,17.91,16777.068};
-			};
-			id=48;
-			type="mcc_sandbox_module";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="allowAdmin";
-					expression="_this setVariable ['allowAdmin',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="names";
-					expression="_this setVariable ['names',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[]";
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item22
-		{
 			dataType="Group";
 			side="West";
 			class Entities
@@ -3192,7 +2733,7 @@ class Mission
 			};
 			id=56;
 		};
-		class Item23
+		class Item21
 		{
 			dataType="Group";
 			side="West";
@@ -3473,7 +3014,7 @@ class Mission
 			};
 			id=58;
 		};
-		class Item24
+		class Item22
 		{
 			dataType="Group";
 			side="West";
@@ -5229,7 +4770,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item25
+		class Item23
 		{
 			dataType="Group";
 			side="West";
@@ -6985,7 +6526,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item26
+		class Item24
 		{
 			dataType="Group";
 			side="West";
@@ -7705,7 +7246,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item27
+		class Item25
 		{
 			dataType="Group";
 			side="West";
@@ -7713,216 +7254,6 @@ class Mission
 			{
 				items=2;
 				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={14666.725,17.911438,16727.043};
-						angles[]={-0,6.1932135,0};
-					};
-					side="West";
-					flags=6;
-					class Attributes
-					{
-						description="Apache Pilot";
-						isPlayable=1;
-						class Inventory
-						{
-							class uniform
-							{
-								typeName="VSM_MulticamTropic_Crye_Camo";
-								isBackpack=0;
-								class ItemCargo
-								{
-									items=6;
-									class Item0
-									{
-										name="rhsusf_ANPVS_14";
-										count=1;
-									};
-									class Item1
-									{
-										name="rhsusf_patrolcap_ocp";
-										count=1;
-									};
-									class Item2
-									{
-										name="ACE_fieldDressing";
-										count=2;
-									};
-									class Item3
-									{
-										name="ACE_packingBandage";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item5
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="VSM_RAV_operator_MulticamTropic";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="rhs_mag_m18_red";
-										count=1;
-										ammoLeft=1;
-									};
-								};
-								class ItemCargo
-								{
-									items=4;
-									class Item0
-									{
-										name="ACE_tourniquet";
-										count=8;
-									};
-									class Item1
-									{
-										name="ACE_fieldDressing";
-										count=7;
-									};
-									class Item2
-									{
-										name="ACE_packingBandage";
-										count=7;
-									};
-									class Item3
-									{
-										name="ACE_morphine";
-										count=7;
-									};
-								};
-							};
-							class backpack
-							{
-								typeName="VSM_MulticamTropic_Backpack_Kitbag";
-								isBackpack=1;
-								class ItemCargo
-								{
-									items=7;
-									class Item0
-									{
-										name="ACE_fieldDressing";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACE_packingBandage";
-										count=2;
-									};
-									class Item2
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item3
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item4
-									{
-										name="ACE_salineIV_250";
-										count=1;
-									};
-									class Item5
-									{
-										name="ACE_tourniquet";
-										count=1;
-									};
-									class Item6
-									{
-										name="G_Tactical_Black";
-										count=1;
-									};
-								};
-							};
-							map="ItemMap";
-							compass="ItemCompass";
-							watch="tf_microdagr";
-							radio="ItemRadio";
-							goggles="VSM_Shemagh_Goggles_OD";
-							headgear="VSM_Mich2000_2_MulticamTropic";
-						};
-					};
-					id=83;
-					type="JS_JC_Pilot";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="acex_headless_blacklist";
-							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male01ENG";
-								};
-							};
-						};
-						class Attribute2
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.03;
-								};
-							};
-						};
-						nAttributes=3;
-					};
-				};
-				class Item1
 				{
 					dataType="Object";
 					class PositionInfo
@@ -8131,6 +7462,85 @@ class Mission
 						nAttributes=3;
 					};
 				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14666.725,17.911438,16727.043};
+						angles[]={0,6.1932135,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						description="Apache Pilot";
+						isPlayable=1;
+					};
+					id=86;
+					type="rhsusf_army_ucp_helipilot";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male01ENG";
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
 			};
 			class Attributes
 			{
@@ -8224,7 +7634,7 @@ class Mission
 			{
 				linkID=5;
 				item0=46;
-				item1=83;
+				item1=86;
 				class CustomData
 				{
 					type="Sync";
