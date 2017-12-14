@@ -14,7 +14,6 @@
     player addAction ['Get Rifleman Section Signaller Loadout','Loadouts\Basic\RiflemanSignallerSectionLevel.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)'];
     player addAction ['Get Section Commander IC/2IC Loadout','Loadouts\Basic\SectionCommanderIC/2IC.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)'];
     player addAction ['Get Platoon Signaller Loadout','Loadouts\Basic\SignallerPlatoonLevel.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)'];
-    player addAction ['Get Platoon Signaller Loadout','Loadouts\Basic\SignallerPlatoonLevel.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)'];
     player addAction ['Get EOD Loadout','Loadouts\Basic\EOD.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)'];
   };
   EF_Air=
