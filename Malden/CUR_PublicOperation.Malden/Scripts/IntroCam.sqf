@@ -1,4 +1,12 @@
 if (side player == west) then {
+
+		_subtitles = [
+			[ "System",			"Loading, please wait. This may take some time...", 0],
+			[ "System",			"Almost done, final touches...", 10],
+			[ "System",			"Loading complete, transmitting data...", 20]
+		];
+		_subtitles spawn BIS_fnc_EXP_camp_playSubtitles;
+		sleep 30;
 		0 fadeMusic 0;
 		sleep 0.1;
 		titlecut ["","BLACK IN",7];
