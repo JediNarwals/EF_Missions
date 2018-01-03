@@ -31,7 +31,7 @@
   };
   EF_SM =
   {
-    this addAction ['Loadouts','[] call EF_MM',nil,1.5,true,true,'','if (isKindOf "C_supplyCrate_F") then { ((_target distance _this)<3.5) }; '];
+    this addAction ['Loadouts','[] call EF_MM',nil,1.5,true,true,'','((_target distance _this)<3.5)'];
   };
   [] call EF_SM;
 };
