@@ -37,7 +37,7 @@
     removeAllActions loadoutBox;
     loadoutBox addAction ['Loadouts','[] call EF_MM',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
     loadoutBox addAction ['Basic Loadouts','[] call EF_Basic',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
-    loadoutBox addaction ['Armour Loadouts','[] call EF_Air',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
+    loadoutBox addaction ['Armour Loadouts','[] call EF_armour',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
     loadoutBox addaction ['Aviation Loadouts','[] call EF_Air',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
   };
   EF_SM =
