@@ -13,7 +13,7 @@
     loadoutBox addAction ['Get Rifleman Marksman Loadout','Loadouts\Basic\RiflemanMarksman.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
     loadoutBox addAction ['Get Rifleman Section Medic Loadout','Loadouts\Basic\RiflemanSectionMedic.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
     loadoutBox addAction ['Get Rifleman Section Signaller Loadout','Loadouts\Basic\RiflemanSignallerSectionLevel.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
-    loadoutBox addAction ['Get Section Commander IC/2IC Loadout','Loadouts\Basic\SectionCommanderIC/2IC.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
+    loadoutBox addAction ['Get Section Commander IC/2IC Loadout','Loadouts\Basic\SectionCommanderIC&2IC.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
     loadoutBox addAction ['Get Platoon Signaller Loadout','Loadouts\Basic\SignallerPlatoonLevel.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
     loadoutBox addAction ['Get EOD Loadout','Loadouts\Basic\EOD.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
   };
@@ -23,14 +23,22 @@
     loadoutBox addAction ['Loadouts','[] call EF_MM',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
     loadoutBox addAction ['Get Air Helicopter Pilot Loadout','Loadouts\Air\AirHelicopterPilot.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
     loadoutBox addAction ['Get Air Jet Pilot Loadout','Loadouts\Air\AirJetPilot.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
-    loadoutBox addAction ['Get Air Transport Pilot Loadout','Loadouts\Air\AirTransportPilot.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
+  };
+  EF_Armour=
+  {
+    removeAllActions loadoutBox;
+    loadoutBox addAction ['Loadouts','[] call EF_MM',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
+    loadoutBox addAction ['Get Commander Loadout','Loadouts\Armour\armourCammand.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
+    loadoutBox addAction ['Get Engineer Loadout','Loadouts\Armour\armourEngineer.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
+    loadoutBox addAction ['Get Medic Loadout','Loadouts\Armour\armourMedic.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
   };
   EF_MM =
   {
     removeAllActions loadoutBox;
     loadoutBox addAction ['Loadouts','[] call EF_MM',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
     loadoutBox addAction ['Basic Loadouts','[] call EF_Basic',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
-    loadoutBox addaction ['Pilot Loadouts','[] call EF_Air',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
+    loadoutBox addaction ['Armour Loadouts','[] call EF_Air',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
+    loadoutBox addaction ['Aviation Loadouts','[] call EF_Air',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)'];
   };
   EF_SM =
   {
