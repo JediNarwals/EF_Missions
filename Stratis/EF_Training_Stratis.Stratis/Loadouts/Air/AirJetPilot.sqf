@@ -1,3 +1,6 @@
+comment "Exported from Arsenal by B.Doom";
+
+comment "Remove existing items";
 removeAllWeapons player;
 removeAllItems player;
 removeAllAssignedItems player;
@@ -7,27 +10,34 @@ removeBackpack player;
 removeHeadgear player;
 removeGoggles player;
 
+comment "Add containers";
 player forceAddUniform "U_B_PilotCoveralls";
+for "_i" from 1 to 9 do {player addItemToUniform "ACE_elasticBandage";};
+for "_i" from 1 to 9 do {player addItemToUniform "ACE_packingBandage";};
 player addItemToUniform "ACE_EarPlugs";
-for "_i" from 1 to 7 do {player addItemToUniform "ACE_elasticBandage";};
-for "_i" from 1 to 7 do {player addItemToUniform "ACE_packingBandage";};
 player addItemToUniform "ACE_microDAGR";
+player addItemToUniform "ACE_tourniquet";
+player addItemToUniform "ACE_Flashlight_XL50";
+for "_i" from 1 to 2 do {player addItemToUniform "ACE_salineIV_250";};
 player addItemToUniform "ACE_morphine";
-for "_i" from 1 to 2 do {player addItemToUniform "ACE_tourniquet";};
-player addVest "V_Chestrig_oli";
-for "_i" from 1 to 6 do {player addItemToVest "SMA_30Rnd_556x45_M855A1";};
+player addItemToUniform "ACE_IR_Strobe_Item";
+for "_i" from 1 to 2 do {player addItemToUniform "ACE_HandFlare_Green";};
+player addItemToUniform "SmokeShellGreen";
+player addItemToUniform "30Rnd_9x21_Mag";
+player addItemToUniform "16Rnd_9x21_Mag";
 player addHeadgear "H_PilotHelmetFighter_B";
-player addBackpack "ACE_NonSteerableParachute";
 
-player addWeapon "SMA_M4CQBR";
-player addPrimaryWeaponItem "SMA_eotech552";
+comment "Add weapons";
+player addWeapon "hgun_PDW2000_F";
+player addPrimaryWeaponItem "rhsusf_acc_T1_low";
+player addWeapon "rhs_weap_rsp30_green";
 
+comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "tf_microdagr";
-player linkItem "tf_anprc152";
+player linkItem "tf_anprc152_1";
 
-player setSpeaker "ACE_NoVoice";
-
-[[player],"ace_medical_medicClass", 0, true] call ace_common_fnc_assignObjectsInList;
-[[player],"ACE_IsEngineer", 0, true] call ace_common_fnc_assignObjectsInList;
+comment "Set identity";
+player setFace "WhiteHead_02";
+player setSpeaker "ace_novoice";
