@@ -27,7 +27,6 @@ for "_i" from 1 to 14 do {player addItemToVest "30Rnd_556x45_Stanag";};
 for "_i" from 1 to 2 do {player addItemToVest "rhsusf_mag_17Rnd_9x19_JHP";};
 player addItemToVest "30Rnd_556x45_Stanag_Tracer_Red";
 player addBackpack "VSM_MulticamTropic_Backpack_Compact";
-player addItemToBackpack "rhs_mag_maaws_HEAT";
 player addHeadgear "VSM_Mich2000_2_MulticamTropic";
 player addGoggles "VSM_Shemagh_Goggles_OD";
 
@@ -45,3 +44,5 @@ player linkItem "tf_anprc152_1";
 
 player setFace "WhiteHead_02";
 player setSpeaker "ace_novoice";
+
+for "_i" from 1 to 2 do {player addItemToBackpack "rhs_mag_maaws_HEAT";};
