@@ -43,3 +43,5 @@ player linkItem "tf_anprc152_1";
 
 player setFace "WhiteHead_02";
 player setSpeaker "ace_novoice";
+
+player addItemToVest "Laserbatteries";
