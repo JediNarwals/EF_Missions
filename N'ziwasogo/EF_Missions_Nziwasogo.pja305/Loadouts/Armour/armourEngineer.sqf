@@ -1,6 +1,3 @@
-comment "Exported from Arsenal by B.Doom";
-
-comment "Remove existing items";
 removeAllWeapons player;
 removeAllItems player;
 removeAllAssignedItems player;
@@ -10,7 +7,6 @@ removeBackpack player;
 removeHeadgear player;
 removeGoggles player;
 
-comment "Add containers";
 player forceAddUniform "VSM_OGA_Crye_od_Camo";
 for "_i" from 1 to 9 do {player addItemToUniform "ACE_elasticBandage";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_salineIV_250";};
@@ -33,17 +29,14 @@ player addItemToBackpack "rhsusf_ANPVS_15";
 player addHeadgear "rhsusf_cvc_green_helmet";
 player addGoggles "rhsusf_shemagh_gogg_grn";
 
-comment "Add weapons";
 player addWeapon "SMA_CTARBLK_F";
 player addPrimaryWeaponItem "rhsusf_acc_T1_low";
 player addWeapon "rhsusf_weap_glock17g4";
 
-comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "tf_microdagr";
 player linkItem "tf_anprc152_1";
 
-comment "Set identity";
 player setFace "WhiteHead_20";
 player setSpeaker "ace_novoice";

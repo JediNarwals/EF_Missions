@@ -1,6 +1,3 @@
-comment "Exported from Arsenal by B.Doom";
-
-comment "Remove existing items";
 removeAllWeapons player;
 removeAllItems player;
 removeAllAssignedItems player;
@@ -10,7 +7,6 @@ removeBackpack player;
 removeHeadgear player;
 removeGoggles player;
 
-comment "Add containers";
 player forceAddUniform "U_B_PilotCoveralls";
 for "_i" from 1 to 9 do {player addItemToUniform "ACE_elasticBandage";};
 for "_i" from 1 to 9 do {player addItemToUniform "ACE_packingBandage";};
@@ -27,17 +23,14 @@ player addItemToUniform "30Rnd_9x21_Mag";
 player addItemToUniform "16Rnd_9x21_Mag";
 player addHeadgear "H_PilotHelmetFighter_B";
 
-comment "Add weapons";
 player addWeapon "hgun_PDW2000_F";
 player addPrimaryWeaponItem "rhsusf_acc_T1_low";
 player addWeapon "rhs_weap_rsp30_green";
 
-comment "Add items";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "tf_microdagr";
 player linkItem "tf_anprc152_1";
 
-comment "Set identity";
 player setFace "WhiteHead_02";
 player setSpeaker "ace_novoice";
