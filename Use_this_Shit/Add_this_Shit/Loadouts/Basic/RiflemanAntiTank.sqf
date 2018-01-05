@@ -45,5 +45,3 @@ player linkItem "tf_anprc152_1";
 
 player setFace "WhiteHead_02";
 player setSpeaker "ace_novoice";
-
-for "_i" from 1 to 2 do {player addItemToBackpack "rhs_mag_maaws_HEAT";};
