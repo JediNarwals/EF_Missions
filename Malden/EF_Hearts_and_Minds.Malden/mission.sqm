@@ -16,7 +16,7 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3108.1643,246.1628,6749.9521};
+		pos[]={3118.2632,246.1628,6741.0806};
 		dir[]={-0.038208362,-0.61306727,0.7891587};
 		up[]={-0.029652944,0.78994322,0.61245066};
 		aside[]={0.99887252,1.2292294e-006,0.048362795};
@@ -82,7 +82,6 @@ class AddonsMetaData
 		{
 			className="RHS_US_A2_AirImport";
 			name="RHSUSF A2 Air Ports";
-			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
 		class Item2
@@ -145,7 +144,6 @@ class AddonsMetaData
 		{
 			className="rhsusf_c_RG33L";
 			name="RG33L MRAP";
-			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
 		class Item11
@@ -157,14 +155,12 @@ class AddonsMetaData
 		{
 			className="rhsusf_c_fmtv";
 			name="FMTV Trucks";
-			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
 		class Item13
 		{
 			className="RHS_US_A2Port_Armor";
 			name="M2 Bradley IFV";
-			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
 		class Item14
@@ -178,7 +174,6 @@ class AddonsMetaData
 		{
 			className="rhsusf_c_troops";
 			name="RHSUSF Infantry & Equipment";
-			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
 		class Item16
@@ -219,7 +214,6 @@ class AddonsMetaData
 		{
 			className="rhsusf_c_weapons";
 			name="RHSUSF Weapons & Accessories";
-			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
 		class Item23
@@ -343,6 +337,24 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -357,24 +369,6 @@ class CustomAttributes
 						};
 					};
 					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
 				};
 			};
 		};
@@ -6838,7 +6832,8 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{['Menu'] call " \n "{ " \n "  EF_Basic = " \n "  { " \n "    removeAllActions player; " \n "    player addAction ['Get Rifleman Loadout','Loadouts\Basic\Rifleman.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)']; " \n "    player addAction ['Get Rifleman Grenadier Loadout','Loadouts\Basic\Grenadier.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)']; " \n "    player addAction ['Get Rifleman Anti Tank Loadout','Loadouts\Basic\RiflemanAntiTank.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)']; " \n "    player addAction ['Get Rifleman Anti Tank Assistant Loadout','Loadouts\Basic\RiflemanAntiTankAssistant.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)']; " \n "    player addAction ['Get Rifleman GPMG Gunner Loadout','Loadouts\Basic\RiflemanGPMGGunner.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)']; " \n "    player addAction ['Get Rifleman GPMG Assistant Loadout','Loadouts\Basic\RiflemanGPMGAssistant.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)']; " \n "    player addAction ['Get Rifleman Marksman Loadout','Loadouts\Basic\RiflemanMarksman.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)']; " \n "    player addAction ['Get Rifleman Section Medic Loadout','Loadouts\Basic\RiflemanSectionMedic.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)']; " \n "    player addAction ['Get Rifleman Section Signaller Loadout','Loadouts\Basic\RiflemanSignallerSectionLevel.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)']; " \n "    player addAction ['Get Section Commander IC/2IC Loadout','Loadouts\Basic\SectionCommanderIC/2IC.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)']; " \n "    player addAction ['Get Platoon Signaller Loadout','Loadouts\Basic\SignallerPlatoonLevel.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)']; " \n "    player addAction ['Get EOD Loadout','Loadouts\Basic\EOD.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)']; " \n "  }; " \n "  EF_Air= " \n "  { " \n "    removeAllActions player; " \n "    player addAction ['Get Air Helicopter Pilot Loadout','Loadouts\Air\AirHelicopterPilot.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)']; " \n "    player addAction ['Get Air Jet Pilot Loadout','Loadouts\Air\AirJetPilot.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)']; " \n "    player addAction ['Get Air Transport Pilot Loadout','Loadouts\Air\AirTransportPilot.sqf',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)']; " \n "  }; " \n "  EF_MM = " \n "  { " \n "    removeAllActions player; " \n "    player addAction ['Basic Loadouts','[] call EF_Basic',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)']; " \n "    player addaction ['Pilot Loadouts','[] call EF_Air',nil,1.5,true,true,'','((player distance cursorTarget)<3.5)']; " \n "  }; " \n "  EF_SM = " \n "  { " \n "    this addAction ['Loadouts','[] call EF_MM',nil,1.5,true,true,'','((_target distance _this)<3.5)']; " \n "  }; " \n "  [] call EF_SM; " \n "}; " \n "}";
+				init="call{['Menu'] call " \n "{ " \n "  EF_Basic = " \n "  { " \n "    removeAllActions loadoutBox; " \n "    loadoutBox addAction ['Loadouts','[] call EF_MM',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "    loadoutBox addAction ['Get Rifleman Loadout','Loadouts\Basic\Rifleman.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "    loadoutBox addAction ['Get Rifleman Grenadier Loadout','Loadouts\Basic\Grenadier.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "    loadoutBox addAction ['Get Rifleman Anti Tank Loadout','Loadouts\Basic\RiflemanAntiTank.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "    loadoutBox addAction ['Get Rifleman Anti Tank Assistant Loadout','Loadouts\Basic\RiflemanAntiTankAssistant.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "    loadoutBox addAction ['Get Rifleman GPMG Gunner Loadout','Loadouts\Basic\RiflemanGPMGGunner.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "    loadoutBox addAction ['Get Rifleman GPMG Assistant Loadout','Loadouts\Basic\RiflemanGPMGAssistant.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "    loadoutBox addAction ['Get Rifleman Marksman Loadout','Loadouts\Basic\RiflemanMarksman.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "    loadoutBox addAction ['Get Rifleman Section Medic Loadout','Loadouts\Basic\RiflemanSectionMedic.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "    loadoutBox addAction ['Get Rifleman Section Signaller Loadout','Loadouts\Basic\RiflemanSignallerSectionLevel.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "    loadoutBox addAction ['Get Section Commander IC/2IC Loadout','Loadouts\Basic\SectionCommanderIC&2IC.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "    loadoutBox addAction ['Get Platoon Signaller Loadout','Loadouts\Basic\SignallerPlatoonLevel.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "    loadoutBox addAction ['Get EOD Loadout','Loadouts\Basic\EOD.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "  }; " \n "  EF_Air= " \n "  { " \n "    removeAllActions loadoutBox; " \n "    loadoutBox addAction ['Loadouts','[] call EF_MM',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "    loadoutBox addAction ['Get Helicopter Pilot Loadout','Loadouts\Air\AirHelicopterPilot.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "    loadoutBox addAction ['Get Jet Pilot Loadout','Loadouts\Air\AirJetPilot.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "  }; " \n "  EF_Armour= " \n "  { " \n "    removeAllActions loadoutBox; " \n "    loadoutBox addAction ['Loadouts','[] call EF_MM',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "    loadoutBox addAction ['Get Commander Loadout','Loadouts\Armour\armourCommand.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "    loadoutBox addAction ['Get Engineer Loadout','Loadouts\Armour\armourEngineer.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "    loadoutBox addAction ['Get Medic Loadout','Loadouts\Armour\armourMedic.sqf',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "  }; " \n "  EF_MM = " \n "  { " \n "    removeAllActions loadoutBox; " \n "    loadoutBox addAction ['Loadouts','[] call EF_MM',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "    loadoutBox addAction ['Basic Loadouts','[] call EF_Basic',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "    loadoutBox addaction ['Armour Loadouts','[] call EF_armour',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "    loadoutBox addaction ['Aviation Loadouts','[] call EF_Air',nil,1.5,true,true,'','((player distance loadoutBox)<3.5)']; " \n "  }; " \n "  EF_SM = " \n "  { " \n "    this addAction ['Loadouts','[] call EF_MM',nil,1.5,true,true,'','((_target distance _this)<3.5)']; " \n "  }; " \n "  [] call EF_SM; " \n "}; " \n "}";
+				name="loadoutBox";
 			};
 			id=406;
 			type="C_supplyCrate_F";
@@ -6881,27 +6876,8 @@ class Mission
 			{
 				class Attribute0
 				{
-					property="ace_advanced_ballistics_ModuleSettings_simulationRadius";
-					expression="_this setVariable ['simulationRadius',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=3000;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ace_advanced_ballistics_ModuleSettings_barrelLengthInfluenceEnabled";
-					expression="_this setVariable ['barrelLengthInfluenceEnabled',_value,true];";
+					property="ace_advanced_ballistics_ModuleSettings_bulletTraceEnabled";
+					expression="_this setVariable ['bulletTraceEnabled',_value,true];";
 					class Value
 					{
 						class data
@@ -6917,10 +6893,29 @@ class Mission
 						};
 					};
 				};
+				class Attribute1
+				{
+					property="ace_advanced_ballistics_ModuleSettings_enabled";
+					expression="_this setVariable ['enabled',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
 				class Attribute2
 				{
-					property="ace_advanced_ballistics_ModuleSettings_bulletTraceEnabled";
-					expression="_this setVariable ['bulletTraceEnabled',_value,true];";
+					property="ace_advanced_ballistics_ModuleSettings_barrelLengthInfluenceEnabled";
+					expression="_this setVariable ['barrelLengthInfluenceEnabled',_value,true];";
 					class Value
 					{
 						class data
@@ -6957,8 +6952,8 @@ class Mission
 				};
 				class Attribute4
 				{
-					property="ace_advanced_ballistics_ModuleSettings_disabledInFullAutoMode";
-					expression="_this setVariable ['disabledInFullAutoMode',_value,true];";
+					property="ace_advanced_ballistics_ModuleSettings_muzzleVelocityVariationEnabled";
+					expression="_this setVariable ['muzzleVelocityVariationEnabled',_value,true];";
 					class Value
 					{
 						class data
@@ -6975,63 +6970,6 @@ class Mission
 					};
 				};
 				class Attribute5
-				{
-					property="ace_advanced_ballistics_ModuleSettings_simulateForEveryone";
-					expression="_this setVariable ['simulateForEveryone',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="ace_advanced_ballistics_ModuleSettings_simulateForSnipers";
-					expression="_this setVariable ['simulateForSnipers',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="ace_advanced_ballistics_ModuleSettings_simulateForGroupMembers";
-					expression="_this setVariable ['simulateForGroupMembers',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute8
 				{
 					property="ace_advanced_ballistics_ModuleSettings_ammoTemperatureEnabled";
 					expression="_this setVariable ['ammoTemperatureEnabled',_value,true];";
@@ -7050,26 +6988,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute9
-				{
-					property="ace_advanced_ballistics_ModuleSettings_enabled";
-					expression="_this setVariable ['enabled',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=10;
+				nAttributes=6;
 			};
 		};
 		class Item37
