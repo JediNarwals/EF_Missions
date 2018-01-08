@@ -152,3 +152,8 @@ player createDiaryRecord ["Documentation", [
 	format ["<img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\download_ca.paa' width='20' height='20'/> Version %1 <img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\download_ca.paa' width='20' height='20'/>",(str(btc_version) + ".3")]
 	]
 ];
+
+player createDiaryRecord ["Documentation", [
+	"TeamSpeak",
+	"The TeamSpeak is used for the TFAR implementation. This is required by the server. Please join this TeamSpeak so we can play as a team: <t color='#FF0000'>31.220.31.54:9999</t>"
+]]
