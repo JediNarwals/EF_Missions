@@ -15,3 +15,26 @@ if (!isNil "btc_helo_1") then {_array pushBack ['\A3\ui_f\data\map\vehicleicons\
 [getMarkerPos "btc_base","Base overview. Loading ...",20,30,240,0,_array,0] call BIS_fnc_establishingShot;
 
 enableSaving [false,false];
+
+/*
+	File: fn_intro.sqf
+	Author: John "Paratus" VanderZwet
+			JediNarwals [TG]
+
+	Description:
+	Displays introduction on init!
+*/
+
+private ["_plr"];
+
+sleep 2;
+_plr = format["<t align='center' shadow='0'><img size='6' image='core\img\EFintro.jpg'/></t><br/><br/>Welcome to EuroForce, %1!<br/><br/>
+		<t color='#FF0000'>EuroForce</t> is a group of like-minded individuals that have one thing in mind. Realism.<br/>
+		This is our public server where we like to give back to the community with a fun and unique COOP experiance where working as a team is key.<br/>
+		To be part of our community join us on TeamSpeak: <t color='#FF0000'>31.220.31.54:9999</t><br/>
+    This server uses TFAR. So join the TS to get on the action.<br/>
+    This info can be found in the map under Documentation.<br/>
+		Or find us online at: www.eurof-team.org/ <br/>
+		<br/><br/>", name player, worldName];
+
+hint parseText _plr;
