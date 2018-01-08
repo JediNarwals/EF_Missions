@@ -40,3 +40,6 @@ player linkItem "tf_anprc152_1";
 
 player setFace "WhiteHead_20";
 player setSpeaker "ace_novoice";
+
+[[player],"ace_medical_medicClass", 0, true] call ace_common_fnc_assignObjectsInList;
+[[player],"ACE_IsEngineer", 1, true] call ace_common_fnc_assignObjectsInList;
