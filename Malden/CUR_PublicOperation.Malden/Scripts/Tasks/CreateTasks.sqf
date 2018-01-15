@@ -1,0 +1,11 @@
+if (isServer) exitWith {};
+sleep 10;
+//sleep 200;
+0 = execVM "Scripts\Tasks\SecureAmbush.sqf";
+sleep 10;
+//sleep 400;
+0 = execVM "Scripts\Tasks\SecureSupply1.sqf";
+0 = execVM "Scripts\Tasks\SecureSupply2.sqf";
+sleep 10;
+//sleep 550;
+0 = execVM "Scripts\Tasks\EVACTeam.sqf";
