@@ -67,10 +67,10 @@ player enableFatigue true;													// Disables fatigue
 				Admins and system's can still access and use ["Global","Command","System"] chat.
 */
 
-0 enableChannel false;			// Global
+0 enableChannel false;					// Global
 1 enableChannel [true, false];	// Side
-2 enableChannel true;			// Command
-3 enableChannel true;			// Group
-4 enableChannel true;			// Vehicle
-5 enableChannel true; 			// Direct
-6 enableChannel false;			// System
+2 enableChannel true;						// Command
+3 enableChannel true;						// Group
+4 enableChannel true;						// Vehicle
+5 enableChannel true; 					// Direct
+6 enableChannel false;					// System
