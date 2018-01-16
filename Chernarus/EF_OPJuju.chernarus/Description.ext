@@ -1,7 +1,7 @@
 author = EuroForce Server Administration;
-briefingName="EuroForce Dev Operations";
-overviewText="EuroForce Dev Operations";
-onLoadName = EuroForce Dev Operations;
+briefingName="Operation Juju";
+overviewText="Operation Juju";
+onLoadName = Operation Juju;
 
 respawn      = 			"BASE";
 respawndelay = 			3;
