@@ -32,7 +32,7 @@ player addGoggles "rhsusf_shemagh2_gogg_tan";
 
 comment "Add weapons";
 player addWeapon "sma_minimi_mk3_762tlb_des";
-player addPrimaryWeaponItem "rhsusf_acc_ACOG_d";
+player addPrimaryWeaponItem "rhsusf_acc_ACOG_MDO";
 player addWeapon "rhsusf_weap_glock17g4";
 
 comment "Add items";
