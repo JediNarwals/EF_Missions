@@ -1,0 +1,29 @@
+author = EuroForce Server Administration;
+briefingName="Operation Tremor";
+overviewText="Operation Tremor";
+onLoadName = Operation Tremor;
+
+respawn      = 			"BASE";
+respawndelay = 			3;
+respawnOnStart =		1;
+disabledAI   = 			1;
+enableDebugConsole = 	1;
+
+//----- For PvP ---------
+disableChannels[]={0};
+joinUnassigned = 1;
+
+corpseLimit = 30;
+corpseRemovalMinTime = 60;
+corpseRemovalMaxTime = 300;
+
+wreckLimit = 15;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 1200;
+
+class Header
+{
+	gameType = COOP;
+	minPlayers = 1;
+	maxPlayers = 149;
+};
