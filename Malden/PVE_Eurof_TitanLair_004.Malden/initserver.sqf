@@ -1,0 +1,16 @@
+arty_1 allowdamage false;
+arty_2 allowdamage false;
+arty_1 attachTo [sub_1, [0, 18, 4] ]; 
+arty_2 attachTo [sub_1, [0, 10, 4] ]; 
+arty_1 setObjectTextureGlobal [0, "#(rgb,8,8,3)color(0.0,0.00,0.01,1)"]; 
+arty_1 setObjectTextureGlobal [1, "#(rgb,8,8,3)color(0.0,0.00,0.01,1)"];
+arty_2 setObjectTextureGlobal [0, "#(rgb,8,8,3)color(0.0,0.00,0.01,1)"]; 
+arty_2 setObjectTextureGlobal [1, "#(rgb,8,8,3)color(0.0,0.00,0.01,1)"];
+arty_3 allowdamage false;
+arty_4 allowdamage false;
+arty_3 attachTo [sub_2, [0, 18, 4] ]; 
+arty_4 attachTo [sub_2, [0, 10, 4] ]; 
+arty_3 setObjectTextureGlobal [0, "#(rgb,8,8,3)color(0.0,0.00,0.01,1)"]; 
+arty_3 setObjectTextureGlobal [1, "#(rgb,8,8,3)color(0.0,0.00,0.01,1)"];
+arty_4 setObjectTextureGlobal [0, "#(rgb,8,8,3)color(0.0,0.00,0.01,1)"]; 
+arty_4 setObjectTextureGlobal [1, "#(rgb,8,8,3)color(0.0,0.00,0.01,1)"];
