@@ -1,0 +1,11 @@
+1 "" !="(kg([a-z-A-Z-0-9]{1,4}))" !="BIS_fnc_MP_packet" !="Curator" !="(BIS_fnc_setObjectVar_object|BIS_fnc_setObjectVar_object([0-9]{1,4}))"
+5 "BIS_" !="BIS_fnc_MP_packet" !="BIS_fnc_setObjectVar_object|BIS_fnc_setObjectVar_object([0-9]{1,4})" //5 "BIS_f" //5 "BIS_fnc_preload_server" //5 "bis_functions_mainscope" 
+1 "Curator"
+5 "iamteamkiller" 
+5 "imcheater"
+5 "allowFunctionsRecompile"
+5 "CuratorGodMode"
+5 "onEachFrame"
+5 "RscDisplayDebugPublic"
+5 "load" //loadfile etc.
+1 "BIS_" !="BIS_fnc_MP_packet" 

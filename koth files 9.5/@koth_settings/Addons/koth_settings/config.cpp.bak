@@ -1,0 +1,236 @@
+                                                    
+                                                                                                                                                                                                                                                                                                                                            
+
+class CfgPatches {
+    class CfgKingOfTheHillSettingsPatch {
+    units[] = {};
+    weapons[] = {};
+    requiredVersion = 0.1;
+    requiredAddons[] = {};
+    };
+};
+
+class CfgKingOfTheHillSettings {
+
+    teamBalanceEnabled = 1;
+    teamBalanceThreshold = 4;
+    teamBalanceMinSidePlayers = 10;
+    teamBalanceStartsAfterTime = 300;
+    noSameTown = 1;
+    shutdownServerAfterRounds = 0;
+    noSameTime = 0;
+    shutdownServerPassword = "MyPassword";
+    disableVehicleThermals = 1;
+    disableKilledByWeaponAndDistance = 0;
+    jetBuyDelay = 600;
+    disableTowers = 0;
+    class MissionChances {
+        class Kavala {
+            id = 0;
+            RandomSpawns = 0;
+            Chance = 0;
+            class TimeChances {
+                Dawn = 0;
+                Day = 40;
+                Sunset = 0;
+                NightBright = 0;
+                NightDark = 0;
+           };
+        };
+        class Zaros {
+            id = 1;
+            RandomSpawns = 0;
+            Chance = 1;
+            class TimeChances {
+                Dawn = 1;
+                Day = 4;
+                Sunset = 1;
+                NightBright = 1;
+                NightDark = 1;
+           };
+        };
+        class Pyrgos {
+            id = 2;
+            RandomSpawns = 0;
+            Chance = 1;
+            class TimeChances {
+                Dawn = 1;
+                Day = 4;
+                Sunset = 1;
+                NightBright = 1;
+                NightDark = 1;
+           };
+        };
+        class Athira {
+            id = 3;
+            RandomSpawns = 0;
+            Chance = 1;
+            class TimeChances {
+                Dawn = 1;
+                Day = 4;
+                Sunset = 1;
+                NightBright = 1;
+                NightDark = 1;
+           };
+        };
+        class AgiosDionysios {
+            id = 4;
+            RandomSpawns = 0;
+            Chance = 1;
+            class TimeChances {
+                Dawn = 1;
+                Day = 4;
+                Sunset = 1;
+                NightBright = 1;
+                NightDark = 1;
+           };
+        };
+        class Sofia {
+            id = 5;
+            RandomSpawns = 0;
+            Chance = 1;
+            class TimeChances {
+                Dawn = 1;
+                Day = 4;
+                Sunset = 1;
+                NightBright = 1;
+                NightDark = 1;
+           };
+        };
+        class Chalkeia {
+            id = 6;
+            RandomSpawns = 0;
+            Chance = 1;
+            class TimeChances {
+                Dawn = 1;
+                Day = 4;
+                Sunset = 1;
+                NightBright = 1;
+                NightDark = 1;
+           };
+        };
+        class Neochori {
+            id = 7;
+            RandomSpawns = 0;
+            Chance = 1;
+            class TimeChances {
+                Dawn = 1;
+                Day = 4;
+                Sunset = 1;
+                NightBright = 1;
+                NightDark = 1;
+           };
+        };
+        class Charkia {
+            id = 8;
+            RandomSpawns = 0;
+            Chance = 1;
+            class TimeChances {
+                Dawn = 1;
+                Day = 4;
+                Sunset = 1;
+                NightBright = 1;
+                NightDark = 1;
+           };
+        };
+    };
+    class MissionChances_Tanoa {
+        class Georgetown {
+            id = 0;
+            RandomSpawns = 0;
+            Chance = 2;
+            class TimeChances {
+                Dawn = 1;
+                Day = 4;
+                Sunset = 1;
+                NightBright = 1;
+                NightDark = 1;
+           };
+        };
+        class Tanouka {
+            id = 1;
+            RandomSpawns = 0;
+            Chance = 1;
+            class TimeChances {
+                Dawn = 1;
+                Day = 4;
+                Sunset = 1;
+                NightBright = 1;
+                NightDark = 1;
+           };
+        };
+    };
+
+
+    class RulesDialog {
+        class RulesText {
+            English = "Sprechen im Global Voice Chat ist nicht erlaubt <br/>\
+Musik oder Sounds ingame abspielen ist nicht erlaubt <br/>\
+Teamkill und Teamatack ist nicht erlaubt <br/>\
+Nicht Spamen oder Beleidigen <br/>\
+Kamikaze ist nicht erlaubt <br/>\
+Die Hauptzufahrtsstraße darf nicht becampt werden <br/>\
+Hacken, Skripten oder Cheaten ist nicht erlaubt <br/>\
+";
+        };
+    };
+
+    #define REMOVE_PERK_AMMO 0
+    #define REMOVE_PERK_EXPLOSIVE 1
+    #define REMOVE_PERK_SNIPER 2
+    #define REMOVE_PERK_LAUNCHER 3
+    #define REMOVE_PERK_SILENCER 4
+    #define REMOVE_PERK_ENGINEER 5
+    #define REMOVE_PERK_SPAWNER 6
+    #define REMOVE_PERK_DISCOUNT 7
+    #define REMOVE_PERK_INDEFATIGABLE 8
+    #define REMOVE_PERK_DESIGNATOR 9
+    #define REMOVE_PERK_MACHINEGUNNER 10
+    #define REMOVE_PERK_MEDIC 11
+    #define REMOVE_PERK_COUNTERMEASURES 12
+
+    DisabledPerks[] = {};
+
+    DisabledWeapons[] = {"srifle_DMR_05_tan_f"};
+
+    class VehiclesAvailability {
+        Offroad_MG = -1;
+        Strider = -1;
+        Hunter_GMG = -1;
+        Ifrit_GMG = -1;
+        Strider_GMG = -1;
+        Hunter_HMG = -1;
+        Ifrit_HMG = -1;
+        Strider_HMG = -1;
+        Marid = -1;
+        Marshall = -1;
+        Gorgon = -1;
+        Panther = -1;
+        Mora = -1;
+        Kamysh = -1;
+        Tigris = -1;
+        Cheetah = -1;
+        Kuma = -1;
+        Varsuk = -1;
+        Slammer = -1;
+        Slammer_TUSK = -1;
+        2S9_Sochor = -1;
+        M4_Scorcher = -1;
+        M5_Sandstorm = -1;
+        Ka60_Unarmed = -1;
+        Huron_Armed = -1;
+        Ka60_Armed = -1;
+        Pawnee = -1;
+        Hellcat_Armed = -1;
+        Mi48 = -1;
+        Blackfoot = -1;
+        Buzzard_CAS = -1;
+        Buzzard_AA = -1;
+        Neophron = -1;
+        Wipeout = -1;
+        Quilin_Armed = -1;
+        Prowler_Armed = -1;
+        Blackfish_Armed = -1;
+        Xian_Armed = -1;
+    };
+};

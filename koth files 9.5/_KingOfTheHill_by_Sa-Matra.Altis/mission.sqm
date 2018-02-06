@@ -1,0 +1,3022 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: Produced from mikero's Dos Tools Dll version 5.69
+//'now' is Sat May 27 18:14:21 2017 : 'file' last modified on Sat May 27 18:14:21 2017
+//http://dev-heaven.net/projects/list_files/mikero-pbodll
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+//Class KingOfTheHill_by_Sa-Matra_for_GAMED.Altis : 										{
+version = 12;
+class Mission
+{
+	addOns[] = {"A3_Characters_F_BLUFOR","A3_Characters_F_OPFOR","A3_Characters_F_INDEP","a3_map_altis","A3_Modules_F_Effects","A3_Modules_F","a3_characters_f","A3_Structures_F_System"};
+	addOnsAuto[] = {"A3_Modules_F","A3_Characters_F_BLUFOR","a3_characters_f","A3_Characters_F_OPFOR","A3_Characters_F_INDEP","A3_Structures_F_System","a3_map_altis"};
+	randomSeed = 14326237;
+	class Intel
+	{
+		briefingName = "Community King of the Hill by Sa-Matra (v9.5)";
+		overviewText = "Hold objective to score points for your team and level up";
+		timeOfChanges = 16777215;
+		startWind = 0;
+		forecastWind = 0;
+		forecastWaves = 0;
+		rainForced = 1;
+		lightningsForced = 1;
+		wavesForced = 1;
+		year = 2035;
+		month = 7;
+		day = 6;
+		hour = 8;
+		kg5cdv = 0;
+		startFogBase = 0.001;
+		forecastFogBase = 0.001;
+		startFogDecay = 0.005;
+		forecastFogDecay = 0.005;
+	};
+	class Groups
+	{
+		items = 151;
+		class Item0
+		{
+			side = "LOGIC";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8339.5625,60.30749,25240.48};
+					id = 0;
+					side = "LOGIC";
+					vehicle = "Logic";
+					leader = 1;
+					skill = 0.6;
+					init = "call compile preprocessFileLineNumbers ""init_ns.sqf"";";
+				};
+			};
+		};
+		class Item1
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8320,0,25281};
+					id = 1;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAYER COMMANDER";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item2
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8320.5,0,25281};
+					id = 2;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item3
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8321,0,25281};
+					id = 3;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item4
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8321.5,0,25281};
+					id = 4;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item5
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8322,0,25281};
+					id = 5;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item6
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8322.5,0,25281};
+					id = 6;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item7
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8323,0,25281};
+					id = 7;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item8
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8323.5,0,25281};
+					id = 8;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item9
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8324,0,25281};
+					id = 9;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item10
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8324.5,0,25281};
+					id = 10;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item11
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8325,0,25281};
+					id = 11;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item12
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8325.5,0,25281};
+					id = 12;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item13
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8326,0,25281};
+					id = 13;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item14
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8326.5,0,25281};
+					id = 14;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item15
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8327,0,25281};
+					id = 15;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item16
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8327.5,0,25281};
+					id = 16;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item17
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8328,0,25281};
+					id = 17;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item18
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8328.5,0,25281};
+					id = 18;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item19
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8329,0,25281};
+					id = 19;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item20
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8329.5,0,25281};
+					id = 20;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item21
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8330,0,25281};
+					id = 21;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item22
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8330.5,0,25281};
+					id = 22;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item23
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8331,0,25281};
+					id = 23;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item24
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8331.5,0,25281};
+					id = 24;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item25
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8332,0,25281};
+					id = 25;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item26
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8332.5,0,25281};
+					id = 26;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item27
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8333,0,25281};
+					id = 27;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item28
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8333.5,0,25281};
+					id = 28;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item29
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8334,0,25281};
+					id = 29;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item30
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8334.5,0,25281};
+					id = 30;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item31
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8335,0,25281};
+					id = 31;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item32
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8335.5,0,25281};
+					id = 32;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item33
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8336,0,25281};
+					id = 33;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item34
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8336.5,0,25281};
+					id = 34;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item35
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8337,0,25281};
+					id = 35;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item36
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8337.5,0,25281};
+					id = 36;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item37
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8338,0,25281};
+					id = 37;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item38
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8338.5,0,25281};
+					id = 38;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item39
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8339,0,25281};
+					id = 39;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item40
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8339.5,0,25281};
+					id = 40;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item41
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8340,0,25281};
+					id = 41;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item42
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8340.5,0,25281};
+					id = 42;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item43
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8341,0,25281};
+					id = 43;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item44
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8341.5,0,25281};
+					id = 44;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item45
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8342,0,25281};
+					id = 45;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item46
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8342.5,0,25281};
+					id = 46;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item47
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8343,0,25281};
+					id = 47;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item48
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8343.5,0,25281};
+					id = 48;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item49
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8344,0,25281};
+					id = 49;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item50
+		{
+			side = "WEST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8344.5,0,25281};
+					id = 50;
+					side = "WEST";
+					vehicle = "B_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item51
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8320,0,25278};
+					id = 51;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item52
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8320.5,0,25278};
+					id = 52;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item53
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8321,0,25278};
+					id = 53;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item54
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8321.5,0,25278};
+					id = 54;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item55
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8322,0,25278};
+					id = 55;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item56
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8322.5,0,25278};
+					id = 56;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item57
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8323,0,25278};
+					id = 57;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item58
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8323.5,0,25278};
+					id = 58;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item59
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8324,0,25278};
+					id = 59;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item60
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8324.5,0,25278};
+					id = 60;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item61
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8325,0,25278};
+					id = 61;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item62
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8325.5,0,25278};
+					id = 62;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item63
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8326,0,25278};
+					id = 63;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item64
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8326.5,0,25278};
+					id = 64;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item65
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8327,0,25278};
+					id = 65;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item66
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8327.5,0,25278};
+					id = 66;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item67
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8328,0,25278};
+					id = 67;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item68
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8328.5,0,25278};
+					id = 68;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item69
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8329,0,25278};
+					id = 69;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item70
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8329.5,0,25278};
+					id = 70;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item71
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8330,0,25278};
+					id = 71;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item72
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8330.5,0,25278};
+					id = 72;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item73
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8331,0,25278};
+					id = 73;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item74
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8331.5,0,25278};
+					id = 74;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item75
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8332,0,25278};
+					id = 75;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item76
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8332.5,0,25278};
+					id = 76;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item77
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8333,0,25278};
+					id = 77;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item78
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8333.5,0,25278};
+					id = 78;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item79
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8334,0,25278};
+					id = 79;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item80
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8334.5,0,25278};
+					id = 80;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item81
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8335,0,25278};
+					id = 81;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item82
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8335.5,0,25278};
+					id = 82;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item83
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8336,0,25278};
+					id = 83;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item84
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8336.5,0,25278};
+					id = 84;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item85
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8337,0,25278};
+					id = 85;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item86
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8337.5,0,25278};
+					id = 86;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item87
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8338,0,25278};
+					id = 87;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item88
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8338.5,0,25278};
+					id = 88;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item89
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8339,0,25278};
+					id = 89;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item90
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8339.5,0,25278};
+					id = 90;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item91
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8340,0,25278};
+					id = 91;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item92
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8340.5,0,25278};
+					id = 92;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item93
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8341,0,25278};
+					id = 93;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item94
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8341.5,0,25278};
+					id = 94;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item95
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8342,0,25278};
+					id = 95;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item96
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8342.5,0,25278};
+					id = 96;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item97
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8343,0,25278};
+					id = 97;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item98
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8343.5,0,25278};
+					id = 98;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item99
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8344,0,25278};
+					id = 99;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item100
+		{
+			side = "EAST";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8344.5,0,25278};
+					id = 100;
+					side = "EAST";
+					vehicle = "O_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item101
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8320,0,25275};
+					id = 101;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item102
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8320.5,0,25275};
+					id = 102;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item103
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8321,0,25275};
+					id = 103;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item104
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8321.5,0,25275};
+					id = 104;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item105
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8322,0,25275};
+					id = 105;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item106
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8322.5,0,25275};
+					id = 106;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item107
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8323,0,25275};
+					id = 107;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item108
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8323.5,0,25275};
+					id = 108;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item109
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8324,0,25275};
+					id = 109;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item110
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8324.5,0,25275};
+					id = 110;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item111
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8325,0,25275};
+					id = 111;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item112
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8325.5,0,25275};
+					id = 112;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item113
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8326,0,25275};
+					id = 113;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item114
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8326.5,0,25275};
+					id = 114;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item115
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8327,0,25275};
+					id = 115;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item116
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8327.5,0,25275};
+					id = 116;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item117
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8328,0,25275};
+					id = 117;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item118
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8328.5,0,25275};
+					id = 118;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item119
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8329,0,25275};
+					id = 119;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item120
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8329.5,0,25275};
+					id = 120;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item121
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8330,0,25275};
+					id = 121;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item122
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8330.5,0,25275};
+					id = 122;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item123
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8331,0,25275};
+					id = 123;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item124
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8331.5,0,25275};
+					id = 124;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item125
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8332,0,25275};
+					id = 125;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item126
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8332.5,0,25275};
+					id = 126;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item127
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8333,0,25275};
+					id = 127;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item128
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8333.5,0,25275};
+					id = 128;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item129
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8334,0,25275};
+					id = 129;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item130
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8334.5,0,25275};
+					id = 130;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item131
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8335,0,25275};
+					id = 131;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item132
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8335.5,0,25275};
+					id = 132;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item133
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8336,0,25275};
+					id = 133;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item134
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8336.5,0,25275};
+					id = 134;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item135
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8337,0,25275};
+					id = 135;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item136
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8337.5,0,25275};
+					id = 136;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item137
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8338,0,25275};
+					id = 137;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item138
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8338.5,0,25275};
+					id = 138;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item139
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8339,0,25275};
+					id = 139;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item140
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8339.5,0,25275};
+					id = 140;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item141
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8340,0,25275};
+					id = 141;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item142
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8340.5,0,25275};
+					id = 142;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item143
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8341,0,25275};
+					id = 143;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item144
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8341.5,0,25275};
+					id = 144;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item145
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8342,0,25275};
+					id = 145;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item146
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8342.5,0,25275};
+					id = 146;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item147
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8343,0,25275};
+					id = 147;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item148
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8343.5,0,25275};
+					id = 148;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item149
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8344,0,25275};
+					id = 149;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+		class Item150
+		{
+			side = "GUER";
+			class Vehicles
+			{
+				items = 1;
+				class Item0
+				{
+					position[] = {8344.5,0,25275};
+					id = 150;
+					side = "GUER";
+					vehicle = "I_Soldier_F";
+					player = "PLAY CDG";
+					leader = 1;
+					skill = 0.6;
+					description = "Player";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items = 1;
+		class Item0
+		{
+			position[] = {8332.263,57.07668,25278.652};
+			id = 151;
+			side = "EMPTY";
+			vehicle = "ProtectionZone_Invisible_F";
+			skill = 0.6;
+		};
+	};
+	class Markers
+	{
+		items = 3;
+		class Item0
+		{
+			position[] = {8453.635,83.0678,25279.559};
+			name = "respawn_west";
+			type = "Empty";
+		};
+		class Item1
+		{
+			position[] = {8453.179,83.04054,25256.71};
+			name = "respawn_east";
+			type = "Empty";
+		};
+		class Item2
+		{
+			position[] = {8453.636,85.06846,25234.314};
+			name = "respawn_guer";
+			type = "Empty";
+		};
+	};
+};
+class Intro
+{
+	addOns[] = {"a3_map_altis"};
+	addOnsAuto[] = {"a3_map_altis"};
+	randomSeed = 16410775;
+	class Intel
+	{
+		timeOfChanges = 1800.0002;
+		startWeather = 0.3;
+		startWind = 0.1;
+		startWaves = 0.1;
+		forecastWeather = 0.3;
+		forecastWind = 0.1;
+		forecastWaves = 0.1;
+		forecastLightnings = 0.1;
+		year = 2035;
+		month = 6;
+		day = 24;
+		hour = 12;
+		kg5cdv = 0;
+		startFogBase = 0.001;
+		forecastFogBase = 0.001;
+		startFogDecay = 0.005;
+		forecastFogDecay = 0.005;
+	};
+};
+class OutroWin
+{
+	addOns[] = {"a3_map_altis"};
+	addOnsAuto[] = {"a3_map_altis"};
+	randomSeed = 7344843;
+	class Intel
+	{
+		timeOfChanges = 1800.0002;
+		startWeather = 0.3;
+		startWind = 0.1;
+		startWaves = 0.1;
+		forecastWeather = 0.3;
+		forecastWind = 0.1;
+		forecastWaves = 0.1;
+		forecastLightnings = 0.1;
+		year = 2035;
+		month = 6;
+		day = 24;
+		hour = 12;
+		kg5cdv = 0;
+		startFogBase = 0.001;
+		forecastFogBase = 0.001;
+		startFogDecay = 0.005;
+		forecastFogDecay = 0.005;
+	};
+};
+class OutroLoose
+{
+	addOns[] = {"a3_map_altis"};
+	addOnsAuto[] = {"a3_map_altis"};
+	randomSeed = 6840239;
+	class Intel
+	{
+		timeOfChanges = 1800.0002;
+		startWeather = 0.3;
+		startWind = 0.1;
+		startWaves = 0.1;
+		forecastWeather = 0.3;
+		forecastWind = 0.1;
+		forecastWaves = 0.1;
+		forecastLightnings = 0.1;
+		year = 2035;
+		month = 6;
+		day = 24;
+		hour = 12;
+		kg5cdv = 0;
+		startFogBase = 0.001;
+		forecastFogBase = 0.001;
+		startFogDecay = 0.005;
+		forecastFogDecay = 0.005;
+	};
+};
+//};

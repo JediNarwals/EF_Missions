@@ -1,0 +1,3 @@
+1 ""
+5 "Shot"
+//attachTo atm. logs for chemsticks/flare re-pick in KOTH, so careful analyze

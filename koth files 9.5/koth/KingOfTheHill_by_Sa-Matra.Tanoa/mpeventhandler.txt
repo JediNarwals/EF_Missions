@@ -1,0 +1,4 @@
+5 "" !="if\(isServer\)then\{_this call ([a-z-A-Z-0-9]{1,6})\}" 
+
+//!="if\(isServer\)then\{_this call wgm2de\}" 
+//"if(isServer)then{_this call wgm2de}" 
