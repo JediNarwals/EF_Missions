@@ -1,1 +1,0 @@
-cpbo -y -p koth_settings koth_settings.pbo
